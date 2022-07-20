@@ -1,6 +1,6 @@
 import React from "react";
 import style from "./header.module.css";
-import logo from "../../img/logo.svg"
+import logo from "../../../img/header__block/logo.svg";
 
 const Header = () => {
   return (
@@ -8,7 +8,7 @@ const Header = () => {
       <div className={style.container}>
         <div className={style.header__inner}>
           <a href="#" className={style.logo}>
-            <img src={logo} className={style.logo__img} />
+            <img src={logo} className={style.logo__img} alt="logo" />
           </a>
           <nav className={style.menu}>
             <ul className={style.menu__list}>

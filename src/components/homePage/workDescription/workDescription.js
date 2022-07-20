@@ -1,8 +1,8 @@
 import React from "react";
 import style from "./workDescription.module.css";
-import line from "../../img/line-work.svg";
-import rule from "../../img/rule-work.svg";
-import screenshot from "../../img/screnshot_work.svg";
+import line from "../../../img/workDescription__block/line-work.svg";
+import rule from "../../../img/workDescription__block/rule-work.svg";
+import screenshot from "../../../img/workDescription__block/screnshot_work.svg";
 
 
 const WorkDescription = () => {
@@ -38,7 +38,7 @@ const WorkDescription = () => {
         <div className={style.description}>
           <div className={style.title}>
             <div className={style.background__img}>
-              <img src={line} />
+              <img src={line} alt="попробовать бесплатно" />
             </div>
             <h2>
               КАК РАБОТАЕТ
@@ -49,7 +49,7 @@ const WorkDescription = () => {
           </div>
           <div className={style.block_information}>
             <div className={style.left_block}>
-              <img src={rule} />
+              <img src={rule} alt="правило" />
               <p>
                 Как это выглядит в CRM? Представьте таблицу Excel с вашей клиентской базой, но только при щелчке на имя клиента открывается удобная карточка, в которой содержится вся хронология работы с ним — от первого звонка до покупки. Здесь можно прослушать звонки, посмотреть историю покупок, создать документы по шаблону, написать e-mail или sms, поставить задачу
                 <br />
@@ -58,7 +58,7 @@ const WorkDescription = () => {
               </p>
             </div>
             <div className={style.right_block}>
-              <img src={screenshot} />
+              <img src={screenshot} alt="workspace" />
             </div>
           </div>
 

@@ -1,8 +1,9 @@
 import React from "react";
-import AboutUs from "../aboutUs/aboutUs";
-import Capabilities from "../capabilities/capabilities";
-import Header from "../header/header";
-import WorkDescription from "../workDescription/workDescription";
+import AboutUs from "./aboutUs/aboutUs";
+import Capabilities from "./capabilities/capabilities";
+import WorkDescription from "./workDescription/workDescription";
+import Header from "./header/header";
+import Effect from "./effect/effect";
 
 const HomePage = () => {
   return (
@@ -11,6 +12,7 @@ const HomePage = () => {
       <AboutUs />
       <WorkDescription />
       <Capabilities />
+      <Effect />
     </div>
   )
 }

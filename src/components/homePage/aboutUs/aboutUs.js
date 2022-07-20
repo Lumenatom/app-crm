@@ -1,6 +1,6 @@
 import React from "react";
 import style from "./aboutUs.module.css";
-import person from "../../img/person_header.svg"
+import person from "../../../img/aboutUs__block/person_header.svg"
 
 const AboutUs = () => {
   return (
@@ -8,7 +8,7 @@ const AboutUs = () => {
       <div className={style.container}>
         <div className={style.top__inner}>
           <div className={style.background__img}>
-            <img src={person} />
+            <img src={person} alt="person" />
           </div>
           <h1 className={style.top__title}>
             СRM-СИСТЕМЫ – что это такое?
