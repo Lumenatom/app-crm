@@ -1,10 +1,20 @@
 import React from "react";
 import style from "./effect.module.css";
 import girl from "../../../img/effect__block/girl_laptop.svg";
-import point from "../../../img/effect__block/point.svg"
+import point from "../../../img/effect__block/point.svg";
+import card from "../../../img/effect__block/card.svg";
+import list_bottom from "../../../img/effect__block/list_bottom.svg";
+import list_card from "../../../img/effect__block/list_left.svg";
+
+
 const Effect = () => {
   return (
     <div className={style.effect}>
+      <div className={style.background__img}>
+        <img src={card} alt="card" />
+        <img src={list_bottom} alt="list" />
+        <img src={list_card} alt="line" />
+      </div>
       <div className={style.container}>
         <div className={style.title}>
           <h2>
@@ -113,6 +123,61 @@ const Effect = () => {
                   Развитие бизнеса дает еще большую прибыль, а также возможность руководителю стать главой крупной успешной компании.
                 </h3>
               </div>
+            </div>
+          </div>
+        </div>
+        <div className={style.need}>
+          <div className={style.need__title}>
+            <h2>
+              НУЖНА ЛИ CRm ИМЕННО ТЕБЕ
+            </h2>
+          </div>
+          <div className={style.need__description}>
+            <div className={style.need__left_block}>
+              <h2>
+                CRM для вас, если
+              </h2>
+              <p>
+                У вас есть отдел продаж,
+              </p>
+              <p>
+                работа с клиентами основана на телефонных звонках, письмах и встречах.
+              </p>
+              <p>
+                Историю общения нужно хранить в одном месте, чтобы постоянно привлекать новые лиды и выстраивать с ними долгосрочные отношения.
+              </p>
+              <p>
+                идеально подойдет для интернет-магазинов или оптовых компаний.
+              </p>
+              <div className={style.need__button}>
+                <button>
+                  Попробовать бесплатно
+                </button>
+              </div>
+
+            </div>
+            <div className={style.need__right_block}>
+              <h2>
+                CRM НЕ для вас, если
+              </h2>
+              <p>
+                Вы владелец розничного магазина,
+              </p>
+              <p>
+                не заинтересованы в выстраивании долгосрочных отношений с клиентами,
+              </p>
+              <p>
+                не звоните
+              </p>
+              <p>
+                не пишете писем,
+              </p>
+              <p>
+                не отправляете sms-уведомлений.
+              </p>
+              <p>
+                вы работаете по долгосрочным контрактам, завязанным на личных знакомствах. Здесь не поможет ни одна программа, прибыль зависит исключительно от опыта менеджера
+              </p>
             </div>
           </div>
         </div>
