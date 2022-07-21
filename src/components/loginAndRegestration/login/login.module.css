@@ -1,0 +1,121 @@
+.login {
+  max-width: 1920px;
+  height: 100vh;
+  background: linear-gradient(180deg, #FFF6EC 0%, #E6FFFC 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.login__logo {
+  position: absolute;
+  top: 4%;
+  left: 4%;
+}
+
+.login__form {
+  padding: 40px 63px;
+  width: 446px;
+  height: 487px;
+  background: #FFFFFF;
+  border-radius: 25px;
+}
+
+.buttons__login__registration {
+  display: flex;
+  justify-content: center;
+  gap: 23px;
+  margin-bottom: 35px;
+}
+
+.buttons__login__registration button {
+  background: #FFFFFF;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 116.7%;
+  color: #261F26;
+  border-bottom: 2px #fff solid;
+}
+
+.buttons__login__registration button:hover {
+  border-bottom: 2px #CBA9F6 solid;
+  transition: all ease 0.3s;
+}
+
+.login__form form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.inputs h2 {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 116.7%;
+  color: #261F26;
+  margin-left: 20px;
+}
+
+.inputs input {
+  height: 48px;
+  border: 1px solid #CBA9F7;
+  border-radius: 25px;
+  padding: 1px 25px;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.checkbox {
+  margin-left: 20px;
+  display: flex;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.button_submit {
+  margin-bottom: 26px;
+}
+
+.button_submit button {
+  width: 319px;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 116.7%;
+  color: #FFFFFF;
+  background: #589BFF;
+  border-radius: 25px;
+  padding: 13px 0;
+}
+
+.help_password {
+  display: flex;
+  justify-content: center;
+}
+
+.help_password button {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 116.7%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-decoration-line: underline;
+  color: #7C6774;
+  background: #FFFFFF;
+
+}
