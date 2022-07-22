@@ -272,6 +272,10 @@
   margin-bottom: 15px;
 }
 
+.need__left_block span {
+  color: #589BFF;
+}
+
 .need__right_block p {
   font-family: 'Roboto Condensed', sans-serif;
   font-style: normal;
@@ -280,7 +284,10 @@
   line-height: 116.7%;
   color: #261F26;
   margin-bottom: 15px;
+}
 
+.need__right_block span {
+  color: #CBA9F6;
 }
 
 .need__button {

@@ -4,6 +4,7 @@ import Capabilities from "./capabilities/capabilities";
 import WorkDescription from "./workDescription/workDescription";
 import Header from "./header/header";
 import Effect from "./effect/effect";
+import Examples from "./examples/examples";
 
 const HomePage = () => {
   return (
@@ -13,6 +14,7 @@ const HomePage = () => {
       <WorkDescription />
       <Capabilities />
       <Effect />
+      <Examples />
     </div>
   )
 }

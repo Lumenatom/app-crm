@@ -135,7 +135,7 @@ const Effect = () => {
           <div className={style.need__description}>
             <div className={style.need__left_block}>
               <h2>
-                CRM для вас, если
+                CRM <span>для вас,</span> если
               </h2>
               <p>
                 У вас есть отдел продаж,
@@ -158,7 +158,7 @@ const Effect = () => {
             </div>
             <div className={style.need__right_block}>
               <h2>
-                CRM НЕ для вас, если
+                CRM <span>НЕ</span> для вас, если
               </h2>
               <p>
                 Вы владелец розничного магазина,
