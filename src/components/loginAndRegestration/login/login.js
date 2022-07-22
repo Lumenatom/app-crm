@@ -1,20 +1,27 @@
 import React from "react";
 import style from "./login.module.css";
 import logo from "../../../img/login__block/logo.svg"
+import { NavLink } from 'react-router-dom';
+
+
+
+
 const Login = () => {
   return (
     <div className={style.login}>
       <div className={style.login__logo}>
-        <img src={logo} />
+        <NavLink to={'/'}>
+          <img src={logo} />
+        </NavLink>
       </div>
       <div className={style.login__form}>
         <div className={style.buttons__login__registration}>
           <button>
             Вход
           </button>
-          <button>
+          <NavLink to={'/regestration'}>
             Регистрация
-          </button>
+          </NavLink>
         </div>
         <form href="#">
           <label className={style.inputs}>
