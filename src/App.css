@@ -97,3 +97,67 @@ body {
 .App {
   width: 1917px;
 }
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  z-index: 2;
+  transition: all ease 0.6s;
+  position: absolute;
+  width: 100px;
+  height: 800px;
+  background-color: rgb(255, 255, 255);
+  border-right: 2px red solid;
+}
+
+.active {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  z-index: 2;
+  transition: all ease 0.6s;
+  position: absolute;
+  width: 300px;
+  height: 800px;
+  background-color: rgb(255, 255, 255);
+  border-right: 2px red solid;
+}
+
+.btn__burger_menu {
+  width: 50px;
+  background-color: #fff;
+  margin: 30px 0 50px;
+}
+
+.btn__burger_menu img {
+  width: 50px;
+}
+
+.nav__dashboard {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+
+.nav__dashboard a {
+  color: #1E1E1E;
+}
+
+.link__dashboard {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+
+}
+
+.link__dashboard a {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.link__dashboard a span {
+  font-weight: 800;
+  font-size: 20px;
+}
