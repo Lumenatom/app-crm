@@ -1,7 +1,7 @@
 .examples {
   display: flex;
   justify-content: center;
-  width: 1917px;
+  max-width: 1917px;
   background: #ECF3FF;
 }
 
