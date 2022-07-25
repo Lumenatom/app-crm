@@ -5,6 +5,7 @@ import WorkDescription from "./workDescription/workDescription";
 import Header from "./header/header";
 import Effect from "./effect/effect";
 import Examples from "./examples/examples";
+import Gives from "./gives/gives";
 
 const HomePage = () => {
   return (
@@ -15,6 +16,7 @@ const HomePage = () => {
       <Capabilities />
       <Effect />
       <Examples />
+      <Gives />
     </div>
   )
 }
