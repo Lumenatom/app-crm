@@ -120,7 +120,7 @@ const Gives = () => {
                   <h2>
                     Телефон *
                   </h2>
-                  <input type="number" name="login" />
+                  <input type="text" name="login" />
                 </label>
                 <p>
                   Отправляя форму, Вы соглашаетесь с Условиями обработки персональных данных
