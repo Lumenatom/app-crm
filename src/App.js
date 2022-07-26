@@ -29,6 +29,7 @@ function App() {
           <Route path='/' element={ isAuth ? <Workspace/> : <HomePage />} />
           <Route path='/regestration' element={<Regestration />} />
           <Route path='/login' element={<Login />} />
+          <Route path='/work' element={<Workspace />} />
 
         </Routes>
       </div>
