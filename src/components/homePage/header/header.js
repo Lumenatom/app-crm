@@ -1,9 +1,15 @@
 import React from "react";
 import style from "./header.module.css";
 import logo from "../../../img/header__block/logo.svg";
-import { NavLink } from "react-router-dom";
+import {NavLink, useNavigate } from "react-router-dom";
 
 const Header = () => {
+
+  const navigate = useNavigate();
+
+  function checkLogin() {
+    navigate(`/regestration`);
+  }
   return (
     <div className={style.header}>
       <div className={style.container}>
@@ -14,7 +20,7 @@ const Header = () => {
           <nav className={style.menu}>
             <ul className={style.menu__list}>
               <li className={style.menu__list}>
-                <NavLink to={'/regestration'} className={style.menu__list_link}>Попробовать безплатно</NavLink >
+                <NavLink onClick={checkLogin} className={style.menu__list_link}>Попробовать безплатно</NavLink >
               </li>
             </ul>
           </nav>

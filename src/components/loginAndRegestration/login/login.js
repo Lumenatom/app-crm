@@ -4,30 +4,48 @@ import logo from "../../../img/login__block/logo.svg"
 import { NavLink } from 'react-router-dom';
 import React from "react";
 import axios from "axios";
-
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 
 class Login extends React.Component {
+
   constructor() {
+
+
     super();
-    this.state = {value: 'привет'};
+    this.state = {username: '', password: ''};
     this.tryLogin = this.tryLogin.bind(this)
 
   }
 
   //Изменяем this.state.value при изменении инпута:
   handleChange(event) {
-    this.setState({value: event.target.value});
+    this.setState({username: event.target.value});
+  }
+  handleChangePassword(event) {
+    this.setState({password: event.target.value});
   }
   tryLogin(event){
 
     event.preventDefault()
-    axios.get(`http://185.94.164.62/newapi/auth`,{
+    axios({
+      method: 'post',
+      url: `http://185.94.164.62/newapi/auth/`,
+      data: {
+        'username': this.state.username,
+        'password': this.state.password
+      }
+    }).then(response => {
+      let data = response.data
+      if('error' in data){
+        toast.error("Неверный логин или пароль!")
+      }else {
+        localStorage.setItem('access_token', response.data['access_token'])
+        toast.success("Успешно")
 
+      }
     })
-        .then(res => {
-          console.log(res)
-        })
 
   }
   render() {
@@ -52,13 +70,14 @@ class Login extends React.Component {
                 <h2>
                   Логин
                 </h2>
-                <input value={this.state.value} onChange={this.handleChange.bind(this)} />
+                <input value={this.state.username} onChange={this.handleChange.bind(this)} />
               </label>
               <label className={style.inputs}>
                 <h2>
                   Пароль
                 </h2>
-                <input type="text" name="login"/>
+                <input type="password" value={this.state.password} onChange={this.handleChangePassword.bind(this)} />
+                <ToastContainer />
 
               </label>
               <label className={style.checkbox}>
