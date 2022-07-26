@@ -13,6 +13,9 @@ import list from "../../../img/nav__block/list.svg";
 import cards from "../../../img/nav__block/cards.svg";
 import information from "../../../img/nav__block/info.svg";
 import users from "../../../img/nav__block/users.svg";
+import "./nav.css";
+
+
 
 const Nav = () => {
   const [isActive, setActive] = useState("false");
@@ -22,7 +25,7 @@ const Nav = () => {
   };
 
   return (
-    <div className={isActive ? "nav" : "active"}>
+    <div className={isActive ? "nav" : "activeNav"}>
       <button className="btn__burger_menu" onClick={toggleClass}>
         {isActive
           ? <img src={burger_menu} />
