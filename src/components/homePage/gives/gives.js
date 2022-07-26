@@ -120,7 +120,7 @@ const Gives = () => {
                   <h2>
                     Телефон *
                   </h2>
-                  <input type="text" name="login" />
+                  <input type="number" name="login" />
                 </label>
                 <p>
                   Отправляя форму, Вы соглашаетесь с Условиями обработки персональных данных
@@ -131,6 +131,17 @@ const Gives = () => {
                   </button>
                 </label>
               </form>
+              <div className={style.main__block_right}>
+                <h3>
+                  Закажите видео-экскурсию по CRM-системе!
+                </h3>
+                <h2>
+                  10 минут <br /><span>пользы</span>
+                </h2>
+                <h4>
+                  За 10 минут в формате демонстрации экрана мы расскажем, как S2 решит задачи вашего бизнеса
+                </h4>
+              </div>
             </div>
           </div>
         </div>
