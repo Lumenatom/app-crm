@@ -20,7 +20,7 @@ const Header = () => {
           <nav className={style.menu}>
             <ul className={style.menu__list}>
               <li className={style.menu__list}>
-                <NavLink onClick={checkLogin} className={style.menu__list_link}>Попробовать безплатно</NavLink >
+                <a onClick={checkLogin} className={style.menu__list_link}>Попробовать безплатно</a >
               </li>
             </ul>
           </nav>
