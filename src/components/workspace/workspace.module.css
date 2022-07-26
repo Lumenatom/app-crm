@@ -2,4 +2,5 @@
   max-width: 1920;
   height: 1800px;
   background: linear-gradient(180deg, #FFF6EC 0%, #FFE6F2 100%);
+  position: relative;
 }
