@@ -1,4 +1,4 @@
-import {BrowserRouter, Redirect, Route, Routes, useNavigate} from 'react-router-dom';
+import { BrowserRouter, Redirect, Route, Routes, useNavigate } from 'react-router-dom';
 import React, { useState, useEffect } from 'react';
 
 import './App.css';
@@ -21,15 +21,15 @@ function App() {
   //
   //     }
   //   },[]);
-    return (
+  return (
 
     <BrowserRouter>
       <div className="App">
         <Routes>
-          <Route path='/' element={ isAuth ? <Workspace/> : <HomePage />} />
+          <Route path='/' element={isAuth ? <Workspace /> : <HomePage />} />
           <Route path='/regestration' element={<Regestration />} />
           <Route path='/login' element={<Login />} />
-
+          <Route path='/workspace' element={<Workspace />} />
         </Routes>
       </div>
     </BrowserRouter>
