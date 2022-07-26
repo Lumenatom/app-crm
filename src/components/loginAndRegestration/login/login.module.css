@@ -20,6 +20,8 @@
   height: 487px;
   background: #FFFFFF;
   border-radius: 25px;
+  position: relative;
+
 }
 
 .buttons__login__registration {
@@ -114,6 +116,9 @@
 }
 
 .help_password {
+  position: absolute;
+  top: 90%;
+  left: 41%;
   display: flex;
   justify-content: center;
 }

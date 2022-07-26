@@ -97,14 +97,42 @@ const Gives = () => {
             </div>
           </div>
         </div>
-        <div className={style.forrr}>
+        <div className={style.feedback}>
           <div className={style.background__img}>
             <img src={people} alt="people" />
             <img src={bg} alt="background" />
           </div>
-          <h2>
-            sjsadfjasdjfbsadkjfbsakfbskdbfsbabsdfbsadklsjahsdfkasfknsghfsdkjff;ohsdfbsfkjsjifbsdfbsfijgslkfnsdflihgsfkln;kajhg;g;sdofye;osduasgag;osghhsoih
-          </h2>
+          <div className={style.feedback__title}>
+            <h2>
+              Хотите эффективнее управлять бизнесом?
+            </h2>
+          </div>
+          <div className={style.feedback__main_block}>
+            <div className={style.main_block__description}>
+              <form href="#">
+                <label className={style.inputs}>
+                  <h2>
+                    Ваше имя *
+                  </h2>
+                  <input />
+                </label>
+                <label className={style.inputs}>
+                  <h2>
+                    Телефон *
+                  </h2>
+                  <input type="text" name="login" />
+                </label>
+                <p>
+                  Отправляя форму, Вы соглашаетесь с Условиями обработки персональных данных
+                </p>
+                <label className={style.button_submit}>
+                  <button type="submit">
+                    ХОЧУ!
+                  </button>
+                </label>
+              </form>
+            </div>
+          </div>
         </div>
       </div>
 
