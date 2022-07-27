@@ -1,0 +1,100 @@
+.must {
+  display: flex;
+  justify-content: center;
+  max-width: 1917px;
+  background: #FFFFFF;
+}
+
+.container {
+  width: 1407px;
+  position: relative;
+}
+
+.must__title {
+  margin: 103px 0 54px;
+}
+
+.must__title h2 {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 71px;
+  text-transform: uppercase;
+  color: #261F26;
+}
+
+.must__title p {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 116.7%;
+  color: #515151;
+}
+
+.must__description {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 166px;
+}
+
+.must__description img {
+  margin-right: 65px;
+}
+
+.description__right_block h2 {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 121.4%;
+  text-transform: uppercase;
+  color: #261F26;
+  margin-bottom: 20px;
+}
+
+.item {
+  display: flex;
+  gap: 15px;
+}
+
+.item__block_one {
+  max-width: 300px;
+
+}
+
+.item__block_two {
+  max-width: 300px;
+
+}
+
+.item__block_three {
+  max-width: 285px;
+}
+
+.point {
+  display: flex;
+  align-items: flex-start;
+}
+
+.point img {
+  margin-right: 13px;
+}
+
+.point p {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 116.7%;
+  color: #261F26;
+  margin-bottom: 30px;
+}
+
+.image__text_bottom img {
+  position: absolute;
+  top: 65%;
+  left: 0%;
+
+}
