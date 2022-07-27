@@ -1,7 +1,9 @@
 
 import style from "./login.module.css";
 import logo from "../../../img/login__block/logo.svg"
-import { NavLink } from 'react-router-dom';
+import {NavLink, useNavigate} from 'react-router-dom';
+import {withRouter} from "./withRouter";
+
 import React from "react";
 import axios from "axios";
 import { ToastContainer, toast } from 'react-toastify';
@@ -9,6 +11,7 @@ import 'react-toastify/dist/ReactToastify.css';
 
 
 class Login extends React.Component {
+
 
   constructor() {
 
@@ -43,6 +46,7 @@ class Login extends React.Component {
       }else {
         localStorage.setItem('access_token', response.data['access_token'])
         toast.success("Успешно")
+        this.props.navigate('/')
 
       }
     })
@@ -101,4 +105,4 @@ class Login extends React.Component {
   };
 }
 
-export default Login;
+export default withRouter(Login);
