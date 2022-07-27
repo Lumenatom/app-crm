@@ -17,6 +17,7 @@ class Workspace extends  Component {
     }
     handleScan(data){
         console.log(data)
+        alert(data)
         this.setState({
             result: data,
         })
@@ -30,7 +31,7 @@ class Workspace extends  Component {
                     onError={this.handleError}
                     onScan={this.handleScan}
                 />
-               
+
             </div>
         )
     }
