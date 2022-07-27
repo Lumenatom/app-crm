@@ -35,7 +35,7 @@ const Nav = () => {
       </button>
       <img className="dot" src={dot} alt="главная страница" />
       <h4>
-        ГЛАВНАЯ СТРАНИЦА
+        Главная страница
       </h4>
       <div className="nav__dashboard">
         <NavLink to={'/'}>
