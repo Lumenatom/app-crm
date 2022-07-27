@@ -1,8 +1,10 @@
 .manager {
   width: 1917px;
   height: 826px;
-
-  /* BG/blue */
-
   background: #ECF3FF;
+}
+
+.manager__photo img {
+  border-radius: 50%;
+  border: 3px solid #589BFF;
 }

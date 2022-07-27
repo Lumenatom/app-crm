@@ -1,7 +1,7 @@
 .workspace {
   display: flex;
   max-width: 1920;
-  height: 1800px;
-  background: linear-gradient(180deg, #FFF6EC 0%, #FFE6F2 100%);
+  height: 5800px;
+  background: linear-gradient(180deg, #fb8600 0%, #922e5e 100%);
   position: relative;
 }
