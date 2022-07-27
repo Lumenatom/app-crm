@@ -1,6 +1,5 @@
 .manager {
   width: 1917px;
-  height: 826px;
   background: #ECF3FF;
   display: flex;
   align-items: center;
@@ -9,8 +8,11 @@
 }
 
 .manager__photo {
-  margin-left: 20%;
   z-index: 2;
+  margin-left: 20%;
+  margin-right: 190px;
+  margin-top: 140px;
+  margin-bottom: 145px;
 }
 
 .manager__photo img {
@@ -55,4 +57,27 @@
   text-align: right;
   text-transform: uppercase;
   color: #261F26;
+}
+
+.quote img {
+  z-index: 3;
+  position: absolute;
+  top: 60%;
+  left: 40%;
+}
+
+.quote p {
+  z-index: 4;
+  max-width: 470px;
+  position: absolute;
+  top: 66%;
+  left: 44%;
+}
+
+.quote {
+  max-width: 470px;
+}
+
+.title h2 {
+  margin-top: 80px;
 }

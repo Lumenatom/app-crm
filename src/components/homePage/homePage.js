@@ -8,6 +8,8 @@ import Examples from "./examples/examples";
 import Gives from "./gives/gives";
 import Must from "./must/must";
 import Manager from "./manager/manager";
+import Benefits from "./benefits/benefits";
+import Footer from "./footer/footer";
 
 const HomePage = () => {
   return (
@@ -21,6 +23,8 @@ const HomePage = () => {
       <Gives />
       <Must />
       <Manager />
+      <Benefits />
+      <Footer />
     </div>
   )
 }

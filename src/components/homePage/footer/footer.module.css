@@ -1,0 +1,31 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  max-width: 1917px;
+  background: #ECF3FF;
+}
+
+.container {
+  width: 1407px;
+}
+
+.logo {
+  margin-top: 67px;
+  margin-bottom: 179px;
+}
+
+.description {
+  display: flex;
+  justify-content: end;
+  gap: 478px;
+}
+
+.description h2 {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 116.7%;
+  color: #261F26;
+  margin-bottom: 53px;
+}
