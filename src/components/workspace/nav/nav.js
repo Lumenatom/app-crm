@@ -14,6 +14,7 @@ import cards from "../../../img/nav__block/cards.svg";
 import information from "../../../img/nav__block/info.svg";
 import users from "../../../img/nav__block/users.svg";
 import "./nav.css";
+import dot from "../../../img/nav__block/dot.png";
 
 
 
@@ -32,8 +33,9 @@ const Nav = () => {
           : <img src={close_menu} />
         }
       </button>
+      <img className="dot" src={dot} alt="главная страница" />
       <h4>
-        ГЛАВНАЯ СТРАНИЦА
+        Главная страница
       </h4>
       <div className="nav__dashboard">
         <NavLink to={'/'}>
@@ -104,9 +106,10 @@ const Nav = () => {
         </NavLink>
       </div>
       <div className="link__dashboard">
-        <h2>
+        <img className="dot" src={dot} alt="страници" />
+        <h4>
           СТРАНИЦЫ
-        </h2>
+        </h4>
         <NavLink to={'/'}>
           <span>
             #
