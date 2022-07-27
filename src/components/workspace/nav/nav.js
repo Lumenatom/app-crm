@@ -34,8 +34,8 @@ const Nav = () => {
         }
       </button>
       <img className="dot" src={dot} alt="главная страница" />
-      <h4>
-        Главная страница
+      <h4 className="mainpage">
+        Главная
       </h4>
       <div className="nav__dashboard">
         <NavLink to={'/'}>
@@ -105,60 +105,60 @@ const Nav = () => {
           </h2>
         </NavLink>
       </div>
-      <div className="link__dashboard">
-        <img className="dot" src={dot} alt="страници" />
-        <h4>
-          СТРАНИЦЫ
-        </h4>
-        <NavLink to={'/'}>
-          <span>
-            #
-          </span>
-          <h2>
-            FAQ
-          </h2>
-        </NavLink>
-        <NavLink to={'/'}>
-          <span>
-            #
-          </span>
-          <h2>
-            Новости
-          </h2>
-        </NavLink>
-        <NavLink to={'/'}>
-          <span>
-            #
-          </span>
-          <h2>
-            Пополнения
-          </h2>
-        </NavLink>
-        <NavLink to={'/'}>
-          <span>
-            #
-          </span>
-          <h2>
-            Карты
-          </h2>
-        </NavLink>
-        <NavLink to={'/'}>
-          <span>
-            #
-          </span>
-          <h2>
-            Платежи
-          </h2>
-        </NavLink>
-        <NavLink to={'/'}>
-          <span>
-            #
-          </span>
-          <h2>
-            API
-          </h2>
-        </NavLink>
-      </div>
+      {/*<div className="link__dashboard">*/}
+      {/*  <img className="dot" src={dot} alt="страници" />*/}
+      {/*  <h4>*/}
+      {/*    СТРАНИЦЫ*/}
+      {/*  </h4>*/}
+      {/*  <NavLink to={'/'}>*/}
+      {/*    <span>*/}
+      {/*      #*/}
+      {/*    </span>*/}
+      {/*    <h2>*/}
+      {/*      FAQ*/}
+      {/*    </h2>*/}
+      {/*  </NavLink>*/}
+      {/*  <NavLink to={'/'}>*/}
+      {/*    <span>*/}
+      {/*      #*/}
+      {/*    </span>*/}
+      {/*    <h2>*/}
+      {/*      Новости*/}
+      {/*    </h2>*/}
+      {/*  </NavLink>*/}
+      {/*  <NavLink to={'/'}>*/}
+      {/*    <span>*/}
+      {/*      #*/}
+      {/*    </span>*/}
+      {/*    <h2>*/}
+      {/*      Пополнения*/}
+      {/*    </h2>*/}
+      {/*  </NavLink>*/}
+      {/*  <NavLink to={'/'}>*/}
+      {/*    <span>*/}
+      {/*      #*/}
+      {/*    </span>*/}
+      {/*    <h2>*/}
+      {/*      Карты*/}
+      {/*    </h2>*/}
+      {/*  </NavLink>*/}
+      {/*  <NavLink to={'/'}>*/}
+      {/*    <span>*/}
+      {/*      #*/}
+      {/*    </span>*/}
+      {/*    <h2>*/}
+      {/*      Платежи*/}
+      {/*    </h2>*/}
+      {/*  </NavLink>*/}
+      {/*  <NavLink to={'/'}>*/}
+      {/*    <span>*/}
+      {/*      #*/}
+      {/*    </span>*/}
+      {/*    <h2>*/}
+      {/*      API*/}
+      {/*    </h2>*/}
+      {/*  </NavLink>*/}
+      {/*</div>*/}
     </div >
   )
 }
