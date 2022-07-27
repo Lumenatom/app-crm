@@ -2,9 +2,57 @@
   width: 1917px;
   height: 826px;
   background: #ECF3FF;
+  display: flex;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.manager__photo {
+  margin-left: 20%;
+  z-index: 2;
 }
 
 .manager__photo img {
   border-radius: 50%;
   border: 3px solid #589BFF;
+}
+
+.manager__photo h2 {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 116.7%;
+  color: #261F26;
+}
+
+.background__img img:nth-child(1) {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+
+.background__img img:nth-child(2) {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+
+.background__img img:nth-child(3) {
+  z-index: 1;
+  position: absolute;
+  top: 10%;
+  left: 15%;
+}
+
+.title h2 {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 39px;
+  text-align: right;
+  text-transform: uppercase;
+  color: #261F26;
 }
