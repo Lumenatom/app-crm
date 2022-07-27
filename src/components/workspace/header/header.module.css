@@ -14,8 +14,9 @@ ul {
 
 .header {
   width: 1917px;
-  background: linear-gradient(180deg, #FFF6EC 0%, #FFE6F2 100%);
-  /* background-color: #fff */
+  /* background: linear-gradient(180deg, #FFF6EC 0%, #FFE6F2 100%); */
+  background-color: #fff;
+  height: 100px;
 }
 
 .container {

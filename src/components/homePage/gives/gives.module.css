@@ -1,7 +1,6 @@
 .gives {
   display: flex;
   justify-content: center;
-  width: 1917px;
   max-width: 1917px;
   background: linear-gradient(180deg, #ECF3FF 0%, #FFE6F2 24.9%, #FFF6EC 52.6%, #FFECFB 79.69%);
   overflow: hidden;

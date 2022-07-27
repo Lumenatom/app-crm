@@ -6,6 +6,8 @@ import Header from "./header/header";
 import Effect from "./effect/effect";
 import Examples from "./examples/examples";
 import Gives from "./gives/gives";
+import Must from "./must/must";
+import Manager from "./manager/manager";
 
 const HomePage = () => {
   return (
@@ -17,6 +19,8 @@ const HomePage = () => {
       <Effect />
       <Examples />
       <Gives />
+      <Must />
+      <Manager />
     </div>
   )
 }
