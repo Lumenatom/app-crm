@@ -98,8 +98,34 @@
  .activeNav .nav__dashboard a:hover {
    border-left: 3px solid #727cf5;
    transition: all ease 0.2s;
+ }
+
+ .svg__nav:hover {
+   fill: #727cf5;
+   transition: all ease 0.2s;
+ }
+
+ .svg__nav {
+   fill: #262626;
+   transition: all ease 0.2s;
+ }
+
+ .activeNav .nav__dashboard h2:hover {
+   color: #727cf5;
+   padding-left: 2px;
+   transition: all ease 0.3s;
+ }
 
 
+ .activeNav .nav__dashboard a:hover .svg__nav {
+   fill: #727cf5;
+   transition: all ease 0.2s;
+ }
+
+ .activeNav .svg__nav:hover+h2 {
+   padding-left: 2px;
+   color: #727cf5;
+   transition: all ease 0.2s;
  }
 
  .activeNav {
@@ -178,7 +204,7 @@
  .btn__burger_menu {
    width: 30px;
    background-color: #fff;
-   margin: 15px 0 21px 8px;
+   margin: 15px 0 21px 9px;
    transition: 0.3s;
 
  }
