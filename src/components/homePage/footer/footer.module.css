@@ -1,7 +1,7 @@
 .footer {
   display: flex;
   justify-content: center;
-  max-width: 1917px;
+  width: 100%;
   background: #ECF3FF;
 }
 
@@ -31,50 +31,30 @@
 }
 
 @media screen and (max-width: 1696px) {
-  .footer {
-    max-width: 1696px;
-  }
-
   .container {
     width: 1200px;
   }
 }
 
 @media screen and (max-width: 1536px) {
-  .footer {
-    max-width: 1536px;
-  }
-
   .container {
     width: 1200px;
   }
 }
 
 @media screen and (max-width: 1408px) {
-  .footer {
-    max-width: 1408px;
-  }
-
   .container {
     width: 1200px;
   }
 }
 
 @media screen and (max-width: 1280px) {
-  .footer {
-    max-width: 1280px;
-  }
-
   .container {
     width: 960px;
   }
 }
 
 @media screen and (max-width: 1024px) {
-  .footer {
-    max-width: 1024px;
-  }
-
   .container {
     width: 960px;
   }

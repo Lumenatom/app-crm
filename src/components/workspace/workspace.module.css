@@ -1,42 +1,7 @@
 .workspace {
   display: flex;
-  max-width: 1917px;
+  width: 100%;
   height: 5800px;
   background: #f9fafb;
   position: relative;
-}
-
-
-
-
-
-
-@media screen and (max-width: 1696px) {
-  .workspace {
-    max-width: 1696px;
-  }
-}
-
-@media screen and (max-width: 1536px) {
-  .workspace {
-    max-width: 1536px;
-  }
-}
-
-@media screen and (max-width: 1408px) {
-  .workspace {
-    max-width: 1408px;
-  }
-}
-
-@media screen and (max-width: 1280px) {
-  .workspace {
-    max-width: 1280px;
-  }
-}
-
-@media screen and (max-width: 1024px) {
-  .workspace {
-    max-width: 1024px;
-  }
 }

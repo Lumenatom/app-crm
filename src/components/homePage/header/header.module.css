@@ -14,13 +14,12 @@ ul {
 
 .header {
   position: absolute;
-  width: 1917px;
-  /* background: linear-gradient(180deg, #FFF6EC 0%, #FFE6F2 100%); */
+  width: 100%;
   z-index: 2;
 }
 
 .container {
-  max-width: 1407px;
+  width: 1407px;
   margin: 0 auto;
 }
 
@@ -60,50 +59,30 @@ ul {
 
 
 @media screen and (max-width: 1696px) {
-  .header {
-    max-width: 1696px;
-  }
-
   .container {
     width: 1200px;
   }
 }
 
 @media screen and (max-width: 1536px) {
-  .header {
-    max-width: 1536px;
-  }
-
   .container {
     width: 1200px;
   }
 }
 
 @media screen and (max-width: 1408px) {
-  .header {
-    max-width: 1408px;
-  }
-
   .container {
     width: 1200px;
   }
 }
 
 @media screen and (max-width: 1280px) {
-  .header {
-    max-width: 1280px;
-  }
-
   .container {
     width: 960px;
   }
 }
 
 @media screen and (max-width: 1024px) {
-  .header {
-    max-width: 1024px;
-  }
-
   .container {
     width: 960px;
   }
