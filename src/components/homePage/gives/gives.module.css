@@ -3,7 +3,6 @@
   justify-content: center;
   width: 100%;
   background: linear-gradient(180deg, #ECF3FF 0%, #FFE6F2 24.9%, #FFF6EC 52.6%, #FFECFB 79.69%);
-  overflow: hidden;
 }
 
 .container {
@@ -297,5 +296,33 @@ form p {
 @media screen and (max-width: 1024px) {
   .container {
     width: 960px;
+    padding: 0 10px;
+  }
+
+  .gives__points {
+    gap: 40px;
+    margin-right: 0px;
+  }
+
+  .gives__top_block {
+    margin-bottom: 120px;
+  }
+
+  .gives__description__bottom_block {
+    padding: 0;
+  }
+
+  .gives__description__bottom_block h2 {
+    max-width: 420px;
+  }
+
+  .gives__bottom_block {
+    margin-bottom: 100px;
+  }
+
+  .background__img img:nth-child(1) {
+    top: -20%;
+    right: 0%;
+    left: 35%;
   }
 }

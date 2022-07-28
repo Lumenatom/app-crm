@@ -113,5 +113,39 @@
 @media screen and (max-width: 1024px) {
   .container {
     width: 960px;
+    padding: 0 10px;
+  }
+
+  .manager__photo {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+
+  .manager__photo img {
+    width: 300px;
+  }
+
+  .title h2 {
+    margin-top: 0px;
+  }
+
+  .quote img {
+    width: 450px;
+    top: 55%;
+    left: 43%;
+  }
+
+  .quote p {
+    width: 350px;
+    top: 58%;
+    left: 50%;
+  }
+
+  .background__img img:nth-child(1) {
+    width: 1265px;
+  }
+
+  .background__img img:nth-child(3) {
+    display: none;
   }
 }

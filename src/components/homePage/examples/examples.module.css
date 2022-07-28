@@ -199,5 +199,23 @@
 @media screen and (max-width: 1024px) {
   .container {
     width: 960px;
+    padding: 0 10px;
+  }
+
+  .examples__title {
+    margin-top: 100px;
+    margin-bottom: 40px;
+  }
+
+  .examples__ilustration img:nth-child(3) {
+    display: none;
+  }
+
+  .process__description__left {
+    margin-right: 30px;
+  }
+
+  .examples__process {
+    margin-bottom: 20px;
   }
 }
