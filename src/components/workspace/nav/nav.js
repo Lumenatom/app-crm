@@ -47,52 +47,52 @@ const Nav = () => {
         <NavLink to={'/'}>
           <Dashboard_company className="svg__nav" />
           <h2>
-            Дашборд компании
+            Магазин
           </h2>
         </NavLink>
         <NavLink to={'/'}>
           <Statistic className="svg__nav" />
           <h2>
-            Статистика
+            Закупка
           </h2>
         </NavLink>
         <NavLink to={'/'}>
           <Offers className="svg__nav" />
           <h2>
-            Офферы
+            Отгрузка товара
           </h2>
         </NavLink>
         <NavLink to={'/'}>
           <Income className="svg__nav" />
           <h2>
-            Расход | Доход
+            Товары
           </h2>
         </NavLink>
         <NavLink to={'/'}>
           <Finance className="svg__nav" />
           <h2>
-            Финансы
+            Клиенты
           </h2>
         </NavLink>
         <NavLink to={'/'}>
           <Form className="svg__nav" />
           <h2>
-            Форма заказа
+            Контрагенты
           </h2>
         </NavLink>
         <NavLink to={'/'}>
           <List className="svg__nav" />
           <h2>
-            Список заказов
+            Пользователи
           </h2>
         </NavLink>
         <NavLink to={'/'}>
           <Cards className="svg__nav" />
           <h2>
-            Карты
+            Финансы
           </h2>
         </NavLink>
-        <NavLink to={'/'}>
+        {/* <NavLink to={'/'}>
           <Information className="svg__nav" />
           <h2>
             Информация
@@ -103,7 +103,7 @@ const Nav = () => {
           <h2>
             Пользователи
           </h2>
-        </NavLink>
+        </NavLink> */}
       </div>
       {/*<div className="link__dashboard">*/}
       {/*  <img className="dot" src={dot} alt="страници" />*/}

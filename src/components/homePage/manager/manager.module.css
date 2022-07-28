@@ -81,3 +81,53 @@
 .title h2 {
   margin-top: 80px;
 }
+
+@media screen and (max-width: 1696px) {
+  .manager {
+    max-width: 1696px;
+  }
+
+  .container {
+    width: 1200px;
+  }
+}
+
+@media screen and (max-width: 1536px) {
+  .manager {
+    max-width: 1536px;
+  }
+
+  .container {
+    width: 1200px;
+  }
+}
+
+@media screen and (max-width: 1408px) {
+  .manager {
+    max-width: 1408px;
+  }
+
+  .container {
+    width: 1200px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .manager {
+    max-width: 1280px;
+  }
+
+  .container {
+    width: 960px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .manager {
+    max-width: 1024px;
+  }
+
+  .container {
+    width: 960px;
+  }
+}

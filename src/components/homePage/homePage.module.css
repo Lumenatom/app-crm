@@ -1,0 +1,29 @@
+@media screen and (max-width: 1696px) {
+  .homePage {
+    max-width: 1696px;
+  }
+}
+
+@media screen and (max-width: 1536px) {
+  .homePage {
+    max-width: 1536px;
+  }
+}
+
+@media screen and (max-width: 1408px) {
+  .homePage {
+    max-width: 1408px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .homePage {
+    max-width: 1280px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .homePage {
+    max-width: 1024px;
+  }
+}

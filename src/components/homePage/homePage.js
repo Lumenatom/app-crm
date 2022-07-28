@@ -10,10 +10,11 @@ import Must from "./must/must";
 import Manager from "./manager/manager";
 import Benefits from "./benefits/benefits";
 import Footer from "./footer/footer";
+import style from "./homePage.module.css";
 
 const HomePage = () => {
   return (
-    <div>
+    <div className={style.homePage}>
       <Header />
       <AboutUs />
       <WorkDescription />

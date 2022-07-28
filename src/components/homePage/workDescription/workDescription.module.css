@@ -111,3 +111,53 @@
 .right_block {}
 
 .right_block img {}
+
+@media screen and (max-width: 1696px) {
+  .work_description {
+    max-width: 1696px;
+  }
+
+  .container {
+    width: 1200px;
+  }
+}
+
+@media screen and (max-width: 1536px) {
+  .work_description {
+    max-width: 1536px;
+  }
+
+  .container {
+    width: 1200px;
+  }
+}
+
+@media screen and (max-width: 1408px) {
+  .work_description {
+    max-width: 1408px;
+  }
+
+  .container {
+    width: 1200px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .work_description {
+    max-width: 1280px;
+  }
+
+  .container {
+    width: 960px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .work_description {
+    max-width: 1024px;
+  }
+
+  .container {
+    width: 960px;
+  }
+}

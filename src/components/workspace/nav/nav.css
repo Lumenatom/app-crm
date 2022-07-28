@@ -12,7 +12,6 @@
    margin: 0;
    top: 0;
    left: 0;
-   /* border-bottom-right-radius: 25px; */
    border-right: 1px solid #f2f4f9;
 
  }
@@ -84,14 +83,14 @@
 
  .nav .nav__dashboard a:hover {
    border-left: 3px solid #727cf5;
-   transition: all ease 0.2s;
+   transition: all ease 0.3s;
 
 
  }
 
  .activeNav .nav__dashboard a {
    border-left: 3px solid #ffffff;
-   transition: all ease 0.2s;
+   transition: all ease 0.3s;
    padding-left: 14px;
  }
 
@@ -102,7 +101,7 @@
 
  .svg__nav:hover {
    fill: #727cf5;
-   transition: all ease 0.2s;
+   transition: all ease 0.3s;
  }
 
  .svg__nav {
