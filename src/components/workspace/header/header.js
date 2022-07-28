@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <div className={style.header}>
       <div className={style.container}>
-        <div className={style.header__inner}>
+        {/* <div className={style.header__inner}>
           <a href="/" className={style.logo}>
             <img src={logo} className={style.logo__img} alt="logo" />
           </a>
@@ -18,7 +18,7 @@ const Header = () => {
               </li>
             </ul>
           </nav>
-        </div>
+        </div> */}
       </div>
     </div>
   )

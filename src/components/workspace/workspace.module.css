@@ -5,3 +5,26 @@
   background: #f9fafb;
   position: relative;
 }
+
+
+
+
+
+
+@media screen and (max-width: 1600px) {
+  .workspace {
+    max-width: 1600px;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .workspace {
+    max-width: 1400px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .workspace {
+    max-width: 1000px;
+  }
+}
