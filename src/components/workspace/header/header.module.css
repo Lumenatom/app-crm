@@ -38,6 +38,12 @@ ul {
   margin: 0 auto;
 }
 
+.header__user {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
 .header__date button {
   color: rgb(0, 0, 0);
   background: #fff;
@@ -56,11 +62,14 @@ ul {
   transition: all ease 0.3s;
 }
 
-.reader__user h2 {
+.header__user h2 {
   font-size: 20px;
   font-weight: 500;
 }
 
+.user_photo img {
+  width: 30px;
+}
 
 
 
