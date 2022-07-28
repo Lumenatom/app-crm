@@ -311,14 +311,44 @@
 }
 
 @media screen and (max-width: 1696px) {
+
   .container {
     width: 1200px;
+  }
+
+  .effect {
+    padding-bottom: 0;
+  }
+
+  .background__img img:nth-child(1) {
+    left: -5%;
+    top: 72%;
+  }
+
+  .background__img img:nth-child(2) {
+    left: 0%;
+    top: 65%;
+  }
+
+  .background__img img:nth-child(3) {
+    left: 10%;
+    top: 66%;
   }
 }
 
 @media screen and (max-width: 1536px) {
   .container {
     width: 1200px;
+  }
+
+  .background__img img:nth-child(1) {
+    left: -10%;
+    top: 72%;
+  }
+
+  .background__img img:nth-child(3) {
+    left: 7%;
+    top: 69%;
   }
 }
 

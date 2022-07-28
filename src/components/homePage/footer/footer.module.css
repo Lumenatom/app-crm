@@ -34,6 +34,10 @@
   .container {
     width: 1200px;
   }
+
+  .logo {
+    margin-bottom: 109px;
+  }
 }
 
 @media screen and (max-width: 1536px) {

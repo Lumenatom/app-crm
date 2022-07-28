@@ -6,12 +6,12 @@ const Header = () => {
   return (
     <div className={style.header}>
       <div className={style.container}>
-        <div className={style.header__date}>
+        {/* <div className={style.header__date}>
           <button>Сегодня</button>
           <button>Вчера</button>
           <button>Месяц</button>
           <button>Выбрать дату</button>
-        </div>
+        </div> */}
         <div className={style.header__user}>
           <h2>
             Андрій Наумець

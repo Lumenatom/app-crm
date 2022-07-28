@@ -1,5 +1,5 @@
 .capabilities {
-  widows: 100%;
+  width: 100%;
   display: flex;
   justify-content: center;
   background: linear-gradient(180deg, #FFF6EC 0%, #FFE6F2 100%);
