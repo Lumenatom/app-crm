@@ -15,11 +15,16 @@ ul {
 .header {
   position: fixed;
   width: 1917px;
+  height: 60px;
   background-color: #fff;
+  border-bottom: 1px solid #f2f4f9;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .container {
-  max-width: 1407px;
+  width: 1407px;
   margin: 0 auto;
 }
 
@@ -29,8 +34,13 @@ ul {
   align-items: center;
 }
 
+.header__inner img {
+  max-width: 138px;
+
+}
+
 .logo__img {
-  padding: 20px 0;
+  /* padding: 20px 0; */
 }
 
 .menu__list {
