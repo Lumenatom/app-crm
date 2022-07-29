@@ -164,3 +164,19 @@
     margin-bottom: 35px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 640px;
+    padding: 0 10px;
+  }
+
+  .image__text_bottom img {
+    top: 44%;
+    left: 0%;
+  }
+
+  .must__title h2 {
+    margin-top: 70px;
+  }
+}

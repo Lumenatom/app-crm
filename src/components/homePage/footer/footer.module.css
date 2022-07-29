@@ -73,3 +73,20 @@
     margin-bottom: 15px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 640px;
+    padding: 0 10px;
+  }
+
+  .logo {
+    margin-top: 40px;
+    margin-bottom: 60px;
+  }
+
+  .description {
+    gap: 0px;
+    justify-content: space-between;
+  }
+}

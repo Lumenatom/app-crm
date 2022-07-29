@@ -219,3 +219,42 @@
     margin-bottom: 20px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 640px;
+    padding: 0 10px;
+  }
+
+  .examples__title {
+    margin-top: 80px;
+  }
+
+  .examples__ilustration img:nth-child(1) {
+    display: none;
+  }
+
+  .examples__description {
+    margin-bottom: 50px;
+  }
+
+  .examples__ilustration {
+    margin-bottom: 80px;
+  }
+
+  .examples__process {
+    margin-bottom: 20px;
+    flex-direction: column;
+  }
+
+  .process__title {
+    max-width: 100%;
+    margin-right: 0px;
+  }
+
+  .process__title p {
+    max-width: 90%;
+    font-size: 16px;
+    margin-bottom: 40px;
+  }
+}

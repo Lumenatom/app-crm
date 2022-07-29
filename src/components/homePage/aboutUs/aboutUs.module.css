@@ -10,6 +10,7 @@ button {
   padding-bottom: 137.5px;
   background: linear-gradient(180deg, #FFF6EC 0%, #FFE6F2 100%);
   position: relative;
+  overflow: hidden;
 }
 
 .title {
@@ -156,5 +157,23 @@ button {
     padding-top: 185px;
     width: 100%;
     padding-bottom: 70px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 640px;
+    padding: 0 10px;
+  }
+
+  .background__img img {
+    width: 700px;
+    top: 31%;
+    left: 37%;
+  }
+
+  .top {
+    padding-top: 135px;
+    padding-bottom: 40px;
   }
 }

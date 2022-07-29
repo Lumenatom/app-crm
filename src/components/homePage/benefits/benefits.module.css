@@ -248,3 +248,38 @@ form p:nth-child(5) {
     left: 35%;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 640px;
+    padding: 0 10px;
+  }
+
+  .title {
+    margin-top: 80px;
+    margin-bottom: 40px;
+  }
+
+  .benefits__main {
+    max-width: 100%;
+    justify-content: space-between;
+    margin-bottom: 80px;
+  }
+
+  .item {
+    max-width: 47%;
+    margin-right: 0;
+  }
+
+  .benefits__form {
+    width: 90%;
+  }
+
+  .benefits__form h5 {
+    left: 30%;
+  }
+
+  .benefits {
+    padding-bottom: 80px;
+  }
+}

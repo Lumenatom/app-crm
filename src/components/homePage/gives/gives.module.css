@@ -326,3 +326,64 @@ form p {
     left: 35%;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 640px;
+    padding: 0 10px;
+  }
+
+  .gives {
+    padding-bottom: 1px;
+  }
+
+  .gives__top_block {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 80px;
+  }
+
+  .gives__top_block__image {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .gives__top_block__image p {
+    max-width: 100%;
+  }
+
+  .gives__title__bottom_block h2 {
+
+    font-size: 42px;
+    margin-bottom: 40px;
+  }
+
+  .gives__description__bottom_block {
+    justify-content: space-between;
+    padding: 0 0px;
+  }
+
+  .gives__bottom_block {
+    margin-bottom: 20px;
+  }
+
+  .feedback {
+    width: 100%;
+    padding: 70px 0 0 50px;
+  }
+
+  .background__img img:nth-child(1) {
+    display: none;
+  }
+
+  .background__img img:nth-child(2) {
+    display: none;
+  }
+
+  .main__block_right {
+    top: 42%;
+    left: 62%;
+  }
+}

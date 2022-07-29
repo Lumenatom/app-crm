@@ -149,3 +149,48 @@
     display: none;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 640px;
+    padding: 0 10px;
+  }
+
+  .manager__photo img {
+    width: 200px;
+  }
+
+  .title h2 {
+    margin-bottom: 30px;
+  }
+
+  .quote img {
+    width: 450px;
+    top: 52%;
+    left: 29%;
+  }
+
+  .quote p {
+    width: 350px;
+    top: 56%;
+    left: 39%;
+  }
+
+  .manager__photo {
+    margin-left: 10%;
+    margin-right: 120px;
+
+  }
+
+  .background__img img:nth-child(1) {
+    width: 1015px;
+  }
+
+  .background__img img:nth-child(3) {
+    display: none;
+  }
+
+  .manager__photo h2 {
+    font-size: 14px;
+  }
+}
