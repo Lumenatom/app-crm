@@ -283,3 +283,49 @@ form p:nth-child(5) {
     padding-bottom: 80px;
   }
 }
+
+@media screen and (max-width: 460px) {
+  .container {
+    width: 375px;
+    padding: 0 10px;
+  }
+
+  .title {
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+
+  .benefits__description {
+    gap: 390px;
+  }
+
+  .benefits__main {
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+
+  .item {
+    max-width: 100%;
+  }
+
+  .benefits__form {
+    width: 130%;
+    border-radius: 0;
+  }
+
+  .benefits__form form h2 {
+    font-size: 28px;
+  }
+
+  .background__img img {
+    width: 100px;
+    top: -10%;
+    left: 10%;
+  }
+
+  .benefits__form h5 {
+    left: 35%;
+  }
+
+}

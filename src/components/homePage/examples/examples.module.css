@@ -3,6 +3,7 @@
   justify-content: center;
   width: 100%;
   background: #ECF3FF;
+  overflow: hidden;
 }
 
 .container {
@@ -256,5 +257,61 @@
     max-width: 90%;
     font-size: 16px;
     margin-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .container {
+    width: 375px;
+    padding: 0 10px;
+  }
+
+  .examples__title {
+    margin-top: 50px;
+  }
+
+  .examples__description {
+    flex-direction: column;
+  }
+
+  .description__left_block {
+    max-width: 100%;
+  }
+
+  .description__right_block {
+    max-width: 100%;
+  }
+
+  .examples__ilustration {
+    margin-bottom: 50px;
+  }
+
+  .examples__ilustration img:nth-child(2) {
+    max-width: 100%;
+  }
+
+  .process__description {
+    flex-direction: column;
+  }
+
+  .process__description__left {
+    margin-right: 0px;
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .process__description__right {
+    max-width: 100%;
+
+  }
+
+  .process__title p {
+    max-width: 100%;
+  }
+
+  .process__description__right a {
+    max-width: 100%;
+    font-size: 24px;
+    padding: 15px 40px;
   }
 }

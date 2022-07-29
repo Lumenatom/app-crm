@@ -180,3 +180,37 @@
     margin-top: 70px;
   }
 }
+
+@media screen and (max-width: 460px) {
+  .container {
+    width: 375px;
+    padding: 0 10px;
+  }
+
+
+  .description__right_block {
+    margin-top: 40px;
+  }
+
+  .item {
+    padding-left: 20px;
+  }
+
+  .must__title h2 {
+    margin-top: 50px;
+    line-height: 120%;
+    font-size: 30px;
+  }
+
+  .must__description {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 150px;
+  }
+
+  .image__text_bottom img {
+    width: 90%;
+    top: 91%;
+    left: 5%;
+  }
+}

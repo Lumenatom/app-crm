@@ -177,3 +177,30 @@ button {
     padding-bottom: 40px;
   }
 }
+
+@media screen and (max-width: 460px) {
+  .container {
+    width: 375px;
+    padding: 0 10px;
+  }
+
+  .background__img img {
+    width: 500px;
+    top: 68%;
+    left: -8%;
+  }
+
+  .top {
+    padding-top: 100px;
+    padding-bottom: 245px;
+    overflow: visible;
+  }
+
+  .top__btn {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 500;
+    padding: 8px 20px;
+
+  }
+}

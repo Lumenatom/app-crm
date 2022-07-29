@@ -233,3 +233,42 @@
     width: 100%;
   }
 }
+
+@media screen and (max-width: 460px) {
+  .container {
+    width: 375px;
+    padding: 0 10px;
+  }
+
+  .information {
+    margin-top: 20px;
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+  }
+
+  .item_block p {
+    font-size: 20px;
+  }
+
+  .item_block h2 {
+    font-size: 35px;
+  }
+
+  .background__img img {
+    top: 50%;
+    left: -30%;
+  }
+
+  .left_block p {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .work_description {
+    padding-bottom: 50px;
+
+  }
+}
