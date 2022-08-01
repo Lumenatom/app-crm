@@ -14,13 +14,13 @@ const Header = () => {
     <div className={style.header}>
       <div className={style.container}>
         <div className={style.header__inner}>
-          <a href="/" className={style.logo}>
+          <NavLink to={'/work'} className={style.logo}>
             <img src={logo} className={style.logo__img} alt="logo" />
-          </a>
+          </NavLink>
           <nav className={style.menu}>
             <ul className={style.menu__list}>
               <li className={style.menu__list}>
-                <a onClick={checkLogin} className={style.menu__list_link}>Попробовать беcплатно</a >
+                <NavLink to={'/regestration'} onClick={checkLogin} className={style.menu__list_link}>Попробовать беcплатно</NavLink >
               </li>
             </ul>
           </nav>
