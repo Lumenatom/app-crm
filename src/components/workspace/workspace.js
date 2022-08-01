@@ -7,6 +7,7 @@ import { Route, Routes, useRoutes } from "react-router-dom";
 import HomePage from "../homePage/homePage";
 import Dashboard from "./dashboard/dashboard";
 import Shop from "./shop/shop";
+import Purchase from "./purchase/purchase";
 
 
 
@@ -36,6 +37,7 @@ class Workspace extends Component {
                 <Routes>
                     <Route path="/" element={<Dashboard />} />
                     <Route path="/shop" element={<Shop />} />
+                    <Route path="/purchase" element={<Purchase />} />
                 </Routes>
                 <BarcodeReader
                     onError={this.handleError}

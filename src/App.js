@@ -8,6 +8,7 @@ import Regestration from './components/loginAndRegestration/regestration/regestr
 import Workspace from './components/workspace/workspace';
 import Dashboard from './components/workspace/dashboard/dashboard';
 import Shop from './components/workspace/shop/shop';
+import Purchase from './components/workspace/purchase/purchase';
 
 const isAuth = localStorage.getItem("access_token");
 
@@ -35,6 +36,7 @@ function App() {
           <Route path='/home' element={<HomePage />} />
           <Route path='/dashboard' element={<Dashboard />} />
           <Route path='/shop' element={<Shop />} />
+          <Route path='/purchase' element={<Purchase />} />
         </Routes>
       </div>
     </BrowserRouter>

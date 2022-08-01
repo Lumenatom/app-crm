@@ -50,7 +50,7 @@ const Nav = () => {
             Магазин
           </h2>
         </NavLink>
-        <NavLink to={'/'}>
+        <NavLink to={'/purchase'}>
           <Statistic className="svg__nav" />
           <h2>
             Закупка
