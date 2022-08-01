@@ -48,6 +48,7 @@ ul {
   border-radius: 25px;
   font-family: 'Roboto', sans-serif;
   transition: 0.3s;
+  cursor: pointer;
 }
 
 .menu__list_link:hover {

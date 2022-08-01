@@ -163,6 +163,11 @@ form p:nth-child(5) {
   text-transform: uppercase;
 }
 
+.button_submit button:hover {
+  background: #9969D4;
+  transition: 0.3s;
+}
+
 .benefits__form h5 {
   position: absolute;
   bottom: 4%;

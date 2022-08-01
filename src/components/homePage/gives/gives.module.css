@@ -220,6 +220,11 @@ form p {
   padding: 13px 0;
 }
 
+.button_submit button:hover {
+  background: #9969D4;
+  transition: 0.3s;
+}
+
 .main_block__description p {
   max-width: 301px;
   margin-left: 20px;

@@ -1,7 +1,7 @@
 import React from "react";
 import style from "./header.module.css";
 import logo from "../../../img/header__block/logo.svg";
-import {NavLink, useNavigate } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 
 const Header = () => {
 
@@ -20,7 +20,7 @@ const Header = () => {
           <nav className={style.menu}>
             <ul className={style.menu__list}>
               <li className={style.menu__list}>
-                <a onClick={checkLogin} className={style.menu__list_link}>Попробовать безплатно</a >
+                <a onClick={checkLogin} className={style.menu__list_link}>Попробовать беcплатно</a >
               </li>
             </ul>
           </nav>
