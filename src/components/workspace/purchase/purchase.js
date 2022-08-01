@@ -10,7 +10,7 @@ const Purchase = () => {
       <Header />
       <div className={style.container}>
         <div className={style.content}>
-          <div className={style.new_coming}>
+          <div className={style.new_purchase}>
             <button>
               Новая закупка
             </button>

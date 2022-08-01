@@ -83,7 +83,7 @@ td {
   border-top: 4px solid black;
 }
 
-button {
+td button {
   background: #FF8CA7;
   font-size: 14px;
   line-height: 24px;
@@ -97,12 +97,24 @@ button {
   cursor: pointer;
 }
 
-button:hover {
+.new_purchase button:hover {
   background: #9969D4;
   transition: 0.3s;
 }
 
-.new_coming button {
+td button:hover {
+  background: #9969D4;
+  transition: 0.3s;
+}
+
+.new_purchase button {
+  background: #FF8CA7;
+  line-height: 24px;
+  text-decoration: none;
+  border: none;
+  color: #fff;
+  border-radius: 25px;
+  font-family: 'Roboto', sans-serif;
   margin-bottom: 50px;
   padding: 10px 50px;
   font-size: 18px;
