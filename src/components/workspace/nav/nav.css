@@ -84,9 +84,8 @@
  .nav .nav__dashboard a:hover {
    border-left: 3px solid #727cf5;
    transition: all ease 0.3s;
-
-
  }
+
 
  .activeNav .nav__dashboard a {
    border-left: 3px solid #ffffff;
