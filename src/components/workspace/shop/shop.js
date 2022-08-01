@@ -14,64 +14,51 @@ const Shop = () => {
       <Header />
       <div className={style.container}>
         <div className={style.content}>
-          <div></div>
+          <div className={style.control_panell}>
+            <button>Закрыть смену</button>
+            <button>Продажа</button>
+            <button>Возврат</button>
+            <button>Обмен</button>
+          </div>
           <div className={style.sales}>
             <h2>
               Продажи за смену
             </h2>
-            <div className={style.table}>
-              <div className={style.id}>
-                <h2>ID</h2>
-                {
-                  arraySales.map((el) => {
-                    return (
-                      <div className={style.id__map}>
-                        < h2 > {el.id}</h2>
-                      </div>
+            <table>
+              <tbody>
+                <tr className={style.tr__top}>
+                  <th>ID</th>
+                  <th>Клиент</th>
+                  <th>Цена</th>
+                  <th>Дата продажи</th>
+                </tr>
+                <tr>
+                  <td>11131</td>
+                  <td>Саня</td>
+                  <td>22$</td>
+                  <td>22-04-2022</td>
+                </tr>
+                <tr>
+                  <td>1435345</td>
+                  <td>Саня</td>
+                  <td>22$</td>
+                  <td>22-04-2022</td>
+                </tr>
+                <tr>
+                  <td>234245435</td>
+                  <td>Саня</td>
+                  <td>22$</td>
+                  <td>22-04-2022</td>
+                </tr>
+                <tr className={style.tr__bottom}>
+                  <th>TOTAL</th>
+                  <th></th>
+                  <th>100$</th>
+                  <th></th>
+                </tr>
+              </tbody>
 
-                    )
-                  })
-                }
-              </div>
-              <div className={style.client}>
-                <h2>Клиент</h2>
-                {
-                  arraySales.map((el) => {
-                    return (
-                      <div className={style.client__map}>
-                        < h2 > {el.client}</h2>
-                        <hr />
-                      </div>
-                    )
-                  })
-                }
-              </div>
-              <div className={style.price}>
-                <h2>Цена</h2>
-                {
-                  arraySales.map((el) => {
-                    return (
-                      <div className={style.price__map}>
-                        < h2 > {el.price}</h2>
-                      </div>
-
-                    )
-                  })
-                }
-              </div>
-              <div className={style.date}>
-                <h2>Дата продажи</h2>
-                {
-                  arraySales.map((el) => {
-                    return (
-                      <div className={style.date__map}>
-                        < h2 > {el.date}</h2>
-                      </div>
-                    )
-                  })
-                }
-              </div>
-            </div>
+            </table>
           </div>
         </div>
       </div>
