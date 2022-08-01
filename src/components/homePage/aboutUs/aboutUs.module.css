@@ -8,7 +8,8 @@ button {
   padding-top: 247px;
   width: 100%;
   padding-bottom: 137.5px;
-  background: linear-gradient(180deg, #FFF6EC 0%, #FFE6F2 100%);
+  /* background: linear-gradient(180deg, #FFF6EC 0%, #FFE6F2 100%); */
+  background: linear-gradient(180deg, #FFF6EC 0%, #E6FFFC 100%);
   position: relative;
   overflow: hidden;
 }
