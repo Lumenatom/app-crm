@@ -111,8 +111,13 @@ const Dashboard = () => {
               </div>
             </div>
           </div>
-
-          <div>4</div>
+          <div className={style.rating}>
+            <div className={style.title}>
+              <h2>
+                Рейтинг по дням
+              </h2>
+            </div>
+          </div>
           <div>5</div>
         </div>
 
