@@ -38,13 +38,13 @@ const Nav = () => {
         Главная
       </h4>
       <div className="nav__dashboard">
-        <NavLink to={'/dashboard'}>
+        <NavLink to={'/dashboard'} className={(navData) => navData.isActive ? "active" : ""}>
           <Dashboard className="svg__nav" />
           <h2>
             Дашборд
           </h2>
         </NavLink>
-        <NavLink to={'/shop'}>
+        <NavLink to={'/shop'} >
           <Dashboard_company className="svg__nav" />
           <h2>
             Магазин

@@ -27,7 +27,7 @@ ChartJS.register(
   Tooltip,
   Legend
 );
-export const options = {
+const options = {
   responsive: true,
   plugins: {
     legend: {
@@ -41,14 +41,14 @@ export const options = {
   },
 };
 
-export const data = {
+const data = {
   labels: [0, 1, 2, 3, 4, 5, 6, 7],
 
   datasets: [
 
     {
       label: 'Профит',
-      data: [2500, 5000, 3000, 1000, 10000, 4500, 5000, 3500],
+      data: [2500, 5000, 3000, 1000, 10000, 4500, 1000, 3500],
       backgroundColor: '#589BFF',
     },
     {
