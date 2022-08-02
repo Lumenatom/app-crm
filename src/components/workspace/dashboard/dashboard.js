@@ -4,6 +4,66 @@ import Nav from "../nav/nav";
 import style from "./dashboard.module.css";
 import down from "../../../img/dashboard__block/down.svg";
 import top from "../../../img/dashboard__block/top.svg";
+import orange from "../../../img/dashboard__block/orange.svg";
+import purple from "../../../img/dashboard__block/purple.svg";
+import blue from "../../../img/dashboard__block/blue.svg";
+import {
+  Chart as ChartJS,
+  CategoryScale,
+  LinearScale,
+  BarElement,
+  Title,
+  Tooltip,
+  Legend,
+} from 'chart.js';
+import { Bar } from 'react-chartjs-2';
+// import faker from 'faker';
+
+ChartJS.register(
+  CategoryScale,
+  LinearScale,
+  BarElement,
+  Title,
+  Tooltip,
+  Legend
+);
+export const options = {
+  responsive: true,
+  plugins: {
+    legend: {
+      position: '',
+    },
+
+    title: {
+      display: true,
+      text: '',
+    },
+  },
+};
+
+export const data = {
+  labels: [0, 1, 2, 3, 4, 5, 6, 7],
+
+  datasets: [
+
+    {
+      label: 'Профит',
+      data: [2500, 5000, 3000, 1000, 10000, 4500, 5000, 3500],
+      backgroundColor: '#589BFF',
+    },
+    {
+      label: 'Расход',
+      data: [5500, 2000, 4000, 1000, 1000, 1500, 2000, 5500],
+      backgroundColor: ' #FAA54A',
+    },
+    {
+      label: 'Доход',
+      data: [1500, 3000, 2000, 4000, 2000, 3500, 2000, 3500],
+      backgroundColor: '#CBA9F7',
+    },
+  ],
+};
+
 
 const Dashboard = () => {
   return (
@@ -117,8 +177,41 @@ const Dashboard = () => {
                 Рейтинг по дням
               </h2>
             </div>
+            <div className={style.rating__form}>
+              <div className={style.description_graphic}>
+                <div className={style.item}>
+                  <img src={orange} alt="orange" />
+                  <h2>
+                    Расход
+                  </h2>
+                </div>
+                <div className={style.item}>
+                  <img src={purple} alt="purple" />
+                  <h2>
+                    Доход
+                  </h2>
+                </div>
+                <div className={style.item}>
+                  <img src={blue} alt="blue" />
+                  <h2>
+                    Профит
+                  </h2>
+                </div>
+              </div>
+              <form>
+                <select>
+                  <option value="1">Сегодня</option>
+                  <option value="2">Вчера</option>
+                  <option value="3">Последние 7 дней</option>
+                  <option value="4">Этот месяц</option>
+                  <option value="5">Прошлый месяц</option>
+                </select>
+              </form>
+            </div>
+            <div className={style.graphic}>
+              <Bar options={options} data={data} height={80} />
+            </div>
           </div>
-          <div>5</div>
         </div>
 
 
