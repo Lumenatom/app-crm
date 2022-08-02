@@ -2,6 +2,8 @@ import React from "react";
 import Header from "../header/header";
 import Nav from "../nav/nav";
 import style from "./dashboard.module.css";
+import down from "../../../img/dashboard__block/down.svg";
+import top from "../../../img/dashboard__block/top.svg";
 
 const Dashboard = () => {
   return (
@@ -36,8 +38,80 @@ const Dashboard = () => {
                 <option value="5">Прошлый месяц</option>
               </select>
             </form>
+            <div className={style.statistics}>
+              <div className={style.revenue}>
+                <h2>
+                  Выручка
+                </h2>
+                <h4>
+                  77,4 ТЫС
+                </h4>
+                <div className={style.statistic_rating}>
+                  <img src={down} alt="rating" />
+                  <h5>
+                    55%
+                  </h5>
+                </div>
+              </div>
+              <div className={style.net_profit}>
+                <h2>
+                  Чистая прибыль
+                </h2>
+                <h4>
+                  42,4 ТЫС
+                </h4>
+                <div className={style.statistic_rating}>
+                  <img src={top} alt="rating" />
+                  <h5>
+                    55%
+                  </h5>
+                </div>
+              </div>
+              <div className={style.expenses}>
+                <h2>
+                  Расходы
+                </h2>
+                <h4>
+                  10,5 ТЫС
+                </h4>
+                <div className={style.statistic_rating}>
+                  <img src={top} alt="rating" />
+                  <h5>
+                    1%
+                  </h5>
+                </div>
+              </div>
+              <div className={style.remainder}>
+                <h2>
+                  Остаток на конец месяца
+                </h2>
+                <h4>
+                  30,5 ТЫС
+                </h4>
+                <div className={style.statistic_rating}>
+                  <img src={top} alt="rating" />
+                  <h5>
+                    7%
+                  </h5>
+                </div>
+              </div>
+              <div className={style.clients}>
+                <h2>
+                  Кол-во клиентов
+                </h2>
+                <h4>
+                  50
+                </h4>
+                <div className={style.statistic_rating}>
+                  <img src={top} alt="rating" />
+                  <h5>
+                    30%
+                  </h5>
+                </div>
+              </div>
+            </div>
           </div>
-          <div>3</div>
+
           <div>4</div>
           <div>5</div>
         </div>
