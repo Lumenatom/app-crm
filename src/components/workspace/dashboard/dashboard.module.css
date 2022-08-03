@@ -31,7 +31,7 @@
 
 
 .consumption h2 {
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'DM Sans', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -40,7 +40,7 @@
 }
 
 .income h2 {
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'DM Sans', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -51,7 +51,7 @@
 }
 
 .profit h2 {
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'DM Sans', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -104,7 +104,7 @@ hr {
 }
 
 .cash_desk h2 {
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Space Grotesk', sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 24px;
@@ -127,7 +127,7 @@ form {
 }
 
 form select {
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'DM Sans', sans-serif;
   font-style: normal;
   font-size: 15px;
   line-height: 116.7%;
@@ -144,7 +144,7 @@ form select {
 }
 
 .statistics h2 {
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'DM Sans', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -154,7 +154,7 @@ form select {
 }
 
 .statistics h4 {
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'DM Sans', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -178,7 +178,7 @@ form select {
 
 
 .statistic_rating h5 {
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'DM Sans', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -194,7 +194,7 @@ form select {
 }
 
 .title h2 {
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Space Grotesk', sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 24px;
@@ -229,7 +229,7 @@ form select {
 }
 
 .item h2 {
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'DM Sans', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
