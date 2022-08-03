@@ -68,10 +68,11 @@ const data = {
 const Dashboard = () => {
   return (
     <div className={style.dashboard}>
-      <Nav />
       <Header />
 
-      <div className={style.container}>
+      <Nav />
+
+      <div id="container" style={ {marginLeft: 305}} className={style.container}>
         <div className={style.content}>
           <div className={style.all_data}>
             <div className={style.consumption}>
