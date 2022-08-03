@@ -368,6 +368,11 @@ hr {
     width: 300px;
   }
 
+  .container {
+    width: 100%;
+    padding-left: 0;
+  }
+
   .all_data {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -396,5 +401,70 @@ hr {
 
   .profit span {
     font-size: 22px;
+  }
+
+  .cash_desk h2 {
+    margin-top: 15px;
+    font-size: 18px;
+  }
+
+  .dashboard__form {
+    width: 200px;
+    margin-top: 50px;
+  }
+
+  .statistics {
+    width: 100%;
+    padding: 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 60px;
+    margin-bottom: 20px;
+  }
+
+  .statistics h2 {
+    text-align: center;
+  }
+
+  .remainder {
+    max-width: 165px;
+  }
+
+  .statistic_rating {
+    justify-content: center;
+    margin-bottom: 0;
+
+  }
+
+  .rating {
+    padding: 0 20px 20px 20px;
+    margin-bottom: 30px;
+  }
+
+  .title h2 {
+    margin-top: 15px;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  .rating__form {
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .rating__form form {
+    text-align: center;
+    position: relative;
+  }
+
+  .bar__charts {
+    height: "60vh";
+    width: "90vw";
   }
 }

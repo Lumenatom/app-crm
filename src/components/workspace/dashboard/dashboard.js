@@ -209,7 +209,7 @@ const Dashboard = () => {
               </form>
             </div>
             <div className={style.graphic}>
-              <Bar options={options} data={data} height={80} />
+              <Bar options={options} data={data} height="45vh" width="90vw" />
             </div>
           </div>
         </div>
