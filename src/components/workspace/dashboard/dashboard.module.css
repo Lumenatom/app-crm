@@ -1,106 +1,93 @@
 .dashboard {
   display: flex;
   width: 100%;
-  background: #000000;
+  background: #1f1f1f;;
 
 }
-
+.containerrr {
+  margin-left: 0!important;
+}
 .container {
-  padding: 60px 0 0 60px;
   width: 100%;
-
+  transition: margin-left .25s cubic-bezier(.4,0,.2,1);
 }
 
 .content {
   width: 100%;
+  /* margin: 39px 53px 39px 40px; */
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 .all_data {
-  margin-top: 50px;
+  margin-top: 99px;
   display: flex;
-  gap: 50px;
+  gap: 181px;
   text-align: center;
   justify-content: center;
   margin-bottom: 90px;
 }
 
-.consumption,
-.income,
-.profit {
-  width: 270px;
-}
+
 
 .consumption h2 {
   font-family: 'DM Sans', sans-serif;
   font-style: normal;
-  font-weight: 600;
-  font-size: 38px;
+  font-weight: 400;
+  font-size: 24px;
   line-height: 116.7%;
-  color: #ffffff;
-  border: rgba(255, 0, 0, 0.8)10px solid;
-  background: rgba(255, 0, 0, 0.4);
-  border-radius: 25px;
-  padding: 25px 50px;
-
+  color: #7C6774;
 }
 
 .income h2 {
   font-family: 'DM Sans', sans-serif;
   font-style: normal;
-  font-weight: 600;
-  font-size: 38px;
+  font-weight: 400;
+  font-size: 24px;
   line-height: 116.7%;
-  color: #ffffff;
-  border: rgb(0, 98, 255, 0.800) 10px solid;
-  background: rgb(0, 98, 255, 0.400);
-  border-radius: 25px;
-  padding: 25px 50px;
+  color: #7C6774;
+
+  ;
 }
 
 .profit h2 {
   font-family: 'DM Sans', sans-serif;
   font-style: normal;
-  font-weight: 600;
-  font-size: 38px;
+  font-weight: 400;
+  font-size: 24px;
   line-height: 116.7%;
-  color: #ffffff;
-  border: rgb(17, 255, 0, 0.800) 10px solid;
-  border-radius: 25px;
-  padding: 25px 50px;
-  background: rgb(17, 255, 0, 0.400);
+  color: #7C6774;
+
 }
 
 
 .consumption span {
   display: inline-block;
-  margin-top: 5px;
+  margin-top: 15px;
   font-size: 32px;
-  color: #ffffff;
-  font-weight: 800;
+  color: #589BFF;
 }
 
 .income span {
   display: inline-block;
-  margin-top: 5px;
+  margin-top: 15px;
   font-size: 32px;
-  color: #ffffff;
+  color: #589BFF;
 }
 
 .profit span {
   display: inline-block;
-  margin-top: 5px;
   font-size: 32px;
-  color: #ffffff;
+  color: #589BFF;
+  margin-top: 15px;
 }
 
 hr {
   margin: 0 auto;
   width: 1057px;
   height: 1px;
-  background: #ffffff;
+  background: #CBA9F7;
   margin-bottom: 30px;
 }
 
@@ -118,7 +105,7 @@ hr {
 }
 
 .cash_desk h2 {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Space Grotesk', sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 24px;
@@ -129,7 +116,7 @@ hr {
   margin-top: 32px;
 }
 
-.dashboard__form {
+form {
   display: flex;
   justify-content: center;
   width: 269px;
@@ -140,7 +127,7 @@ hr {
   margin-top: 85px;
 }
 
-.dashboard__form_select {
+form select {
   font-family: 'DM Sans', sans-serif;
   font-style: normal;
   font-size: 15px;
@@ -208,7 +195,7 @@ hr {
 }
 
 .title h2 {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Space Grotesk', sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 24px;
@@ -363,7 +350,7 @@ hr {
     padding-right: 0;
   }
 
-  .dashboard__form {
+  form {
     width: 229px;
     margin-top: 70px;
   }
@@ -380,11 +367,6 @@ hr {
 @media screen and (max-width: 460px) {
   hr {
     width: 300px;
-  }
-
-  .container {
-    width: 100%;
-    padding-left: 0;
   }
 
   .all_data {
@@ -415,70 +397,5 @@ hr {
 
   .profit span {
     font-size: 22px;
-  }
-
-  .cash_desk h2 {
-    margin-top: 15px;
-    font-size: 18px;
-  }
-
-  .dashboard__form {
-    width: 200px;
-    margin-top: 50px;
-  }
-
-  .statistics {
-    width: 100%;
-    padding: 0 20px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    gap: 60px;
-    margin-bottom: 20px;
-  }
-
-  .statistics h2 {
-    text-align: center;
-  }
-
-  .remainder {
-    max-width: 165px;
-  }
-
-  .statistic_rating {
-    justify-content: center;
-    margin-bottom: 0;
-
-  }
-
-  .rating {
-    padding: 0 20px 20px 20px;
-    margin-bottom: 30px;
-  }
-
-  .title h2 {
-    margin-top: 15px;
-    font-size: 18px;
-    margin-bottom: 10px;
-  }
-
-  .rating__form {
-    margin-top: 0px;
-    display: flex;
-    flex-direction: column-reverse;
-    align-items: center;
-    gap: 10px;
-  }
-
-  .rating__form form {
-    text-align: center;
-    position: relative;
-  }
-
-  .bar__charts {
-    height: "60vh";
-    width: "90vw";
   }
 }

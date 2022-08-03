@@ -13,7 +13,7 @@ import { ReactComponent as List } from "../../../img/nav__block/list.svg";
 import { ReactComponent as Cards } from "../../../img/nav__block/cards.svg";
 import { ReactComponent as Information } from "../../../img/nav__block/info.svg";
 import { ReactComponent as Users } from "../../../img/nav__block/users.svg";
-import "./nav.css";
+import style from "./nav.css";
 import dot from "../../../img/nav__block/dot.png";
 
 
@@ -26,139 +26,41 @@ const Nav = () => {
   };
 
   return (
-    <div className={isActive ? "nav" : "activeNav"}>
-      <button className="btn__burger_menu" onClick={toggleClass}>
-        {isActive
-          ? <img src={burger_menu} />
-          : <img src={close_menu} />
-        }
-      </button>
-      <img className="dot" src={dot} alt="главная страница" />
-      <h4 className="mainpage">
-        Главная
-      </h4>
-      <div className="nav__dashboard">
-        <NavLink to={'/dashboard'} className={(navData) => navData.isActive ? "active" : ""}>
-          <Dashboard className="svg__nav" />
-          <h2>
-            Дашборд
-          </h2>
-        </NavLink>
-        <NavLink to={'/shop'} >
-          <Dashboard_company className="svg__nav" />
-          <h2>
-            Магазин
-          </h2>
-        </NavLink>
-        <NavLink to={'/purchase'}>
-          <Statistic className="svg__nav" />
-          <h2>
-            Закупка
-          </h2>
-        </NavLink>
-        <NavLink to={'/'}>
-          <Offers className="svg__nav" />
-          <h2>
-            Отгрузка товара
-          </h2>
-        </NavLink>
-        <NavLink to={'/'}>
-          <Income className="svg__nav" />
-          <h2>
-            Товары
-          </h2>
-        </NavLink>
-        <NavLink to={'/'}>
-          <Finance className="svg__nav" />
-          <h2>
-            Клиенты
-          </h2>
-        </NavLink>
-        <NavLink to={'/'}>
-          <Form className="svg__nav" />
-          <h2>
-            Контрагенты
-          </h2>
-        </NavLink>
-        <NavLink to={'/'}>
-          <List className="svg__nav" />
-          <h2>
-            Пользователи
-          </h2>
-        </NavLink>
-        <NavLink to={'/'}>
-          <Cards className="svg__nav" />
-          <h2>
-            Финансы
-          </h2>
-        </NavLink>
-        {/* <NavLink to={'/'}>
-          <Information className="svg__nav" />
-          <h2>
-            Информация
-          </h2>
-        </NavLink>
-        <NavLink to={'/'}>
-          <Users className="svg__nav" />
-          <h2>
-            Пользователи
-          </h2>
-        </NavLink> */}
+    <div id="menu" className="left_menu">
+      <div className="list_holder">
+        <ul className="top_menu">
+          <li>
+            <div className="li_item">
+              <div className="li_inherit li_active">
+                <a className="li_link">
+                  <span aria-hidden="true"
+                                                                                                     className="nyM4MbjjB+aCdYL9moVpWA=="><svg
+                    width="24" height="24" viewBox="0 0 24 24" className="Dd3PmF2g5h93YIf1bCDdiA=="><g
+                    fill="currentColor" fill-rule="nonzero"><path
+                    d="M10 14.5a2 2 0 104 0h5.5V18a1.5 1.5 0 01-1.5 1.5H6A1.5 1.5 0 014.5 18v-3.5H10z"
+                    opacity="0.1"></path><path
+                    d="M8.062 4h7.876a2 2 0 011.94 1.515l2.062 8.246a2 2 0 01.06.485V18a2 2 0 01-2 2H6a2 2 0 01-2-2v-3.754a2 2 0 01.06-.485l2.06-8.246A2 2 0 018.061 4zm0 1a1 1 0 00-.97.757L5.03 14.004a1 1 0 00-.03.242V18a1 1 0 001 1h12a1 1 0 001-1v-3.754a1 1 0 00-.03-.242l-2.06-8.247A1 1 0 0015.94 5H8.061zM12 17.25A2.75 2.75 0 019.295 15H7a.5.5 0 110-1h2.75a.5.5 0 01.5.5 1.75 1.75 0 003.5 0 .5.5 0 01.5-.5H17a.5.5 0 110 1h-2.295A2.75 2.75 0 0112 17.25z"></path></g></svg></span><span
+                    className="FnFY2YlPR10DcnOkjvMMmA==">Входящие</span></a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div className="li_item">
+              <div className="li_inherit">
+                <a className="li_link">
+                  <span aria-hidden="true"
+                                                                                                     className="nyM4MbjjB+aCdYL9moVpWA=="><svg
+                    width="24" height="24" viewBox="0 0 24 24" className="Dd3PmF2g5h93YIf1bCDdiA=="><g
+                    fill="currentColor" fill-rule="nonzero"><path
+                    d="M10 14.5a2 2 0 104 0h5.5V18a1.5 1.5 0 01-1.5 1.5H6A1.5 1.5 0 014.5 18v-3.5H10z"
+                    opacity="0.1"></path><path
+                    d="M8.062 4h7.876a2 2 0 011.94 1.515l2.062 8.246a2 2 0 01.06.485V18a2 2 0 01-2 2H6a2 2 0 01-2-2v-3.754a2 2 0 01.06-.485l2.06-8.246A2 2 0 018.061 4zm0 1a1 1 0 00-.97.757L5.03 14.004a1 1 0 00-.03.242V18a1 1 0 001 1h12a1 1 0 001-1v-3.754a1 1 0 00-.03-.242l-2.06-8.247A1 1 0 0015.94 5H8.061zM12 17.25A2.75 2.75 0 019.295 15H7a.5.5 0 110-1h2.75a.5.5 0 01.5.5 1.75 1.75 0 003.5 0 .5.5 0 01.5-.5H17a.5.5 0 110 1h-2.295A2.75 2.75 0 0112 17.25z"></path></g></svg></span><span
+                    className="FnFY2YlPR10DcnOkjvMMmA==">Входящие</span></a>
+              </div>
+            </div>
+          </li>
+        </ul>
       </div>
-      {/*<div className="link__dashboard">*/}
-      {/*  <img className="dot" src={dot} alt="страници" />*/}
-      {/*  <h4>*/}
-      {/*    СТРАНИЦЫ*/}
-      {/*  </h4>*/}
-      {/*  <NavLink to={'/'}>*/}
-      {/*    <span>*/}
-      {/*      #*/}
-      {/*    </span>*/}
-      {/*    <h2>*/}
-      {/*      FAQ*/}
-      {/*    </h2>*/}
-      {/*  </NavLink>*/}
-      {/*  <NavLink to={'/'}>*/}
-      {/*    <span>*/}
-      {/*      #*/}
-      {/*    </span>*/}
-      {/*    <h2>*/}
-      {/*      Новости*/}
-      {/*    </h2>*/}
-      {/*  </NavLink>*/}
-      {/*  <NavLink to={'/'}>*/}
-      {/*    <span>*/}
-      {/*      #*/}
-      {/*    </span>*/}
-      {/*    <h2>*/}
-      {/*      Пополнения*/}
-      {/*    </h2>*/}
-      {/*  </NavLink>*/}
-      {/*  <NavLink to={'/'}>*/}
-      {/*    <span>*/}
-      {/*      #*/}
-      {/*    </span>*/}
-      {/*    <h2>*/}
-      {/*      Карты*/}
-      {/*    </h2>*/}
-      {/*  </NavLink>*/}
-      {/*  <NavLink to={'/'}>*/}
-      {/*    <span>*/}
-      {/*      #*/}
-      {/*    </span>*/}
-      {/*    <h2>*/}
-      {/*      Платежи*/}
-      {/*    </h2>*/}
-      {/*  </NavLink>*/}
-      {/*  <NavLink to={'/'}>*/}
-      {/*    <span>*/}
-      {/*      #*/}
-      {/*    </span>*/}
-      {/*    <h2>*/}
-      {/*      API*/}
-      {/*    </h2>*/}
-      {/*  </NavLink>*/}
-      {/*</div>*/}
     </div >
   )
 }

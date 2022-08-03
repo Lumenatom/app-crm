@@ -68,20 +68,21 @@ const data = {
 const Dashboard = () => {
   return (
     <div className={style.dashboard}>
-      <Nav />
       <Header />
 
-      <div className={style.container}>
+      <Nav />
+
+      <div id="container" style={ {marginLeft: 305}} className={style.container}>
         <div className={style.content}>
           <div className={style.all_data}>
             <div className={style.consumption}>
-              <h2>Pасход<br /> <span> 1000 $</span></h2>
+              <h2>Pасход<br /> <span> 10 000</span> $</h2>
             </div>
             <div className={style.income}>
-              <h2>Доход<br />  <span>2000 $</span></h2>
+              <h2>Доход<br />  <span>20 000</span> $</h2>
             </div>
             <div className={style.profit}>
-              <h2>Профит<br />  <span>500 $</span></h2>
+              <h2>Профит<br />  <span>10 000</span> $</h2>
             </div>
           </div>
           <hr />
@@ -89,8 +90,8 @@ const Dashboard = () => {
             <h2>
               касса компании
             </h2>
-            <form className={style.dashboard__form}>
-              <select className={style.dashboard__form_select}>
+            <form>
+              <select>
                 <option value="1">Сегодня</option>
                 <option value="2">Вчера</option>
                 <option value="3">Последние 7 дней</option>
@@ -198,8 +199,8 @@ const Dashboard = () => {
                   </h2>
                 </div>
               </div>
-              <form className={style.dashboard__form}>
-                <select className={style.dashboard__form_select}>
+              <form>
+                <select>
                   <option value="1">Сегодня</option>
                   <option value="2">Вчера</option>
                   <option value="3">Последние 7 дней</option>
@@ -209,7 +210,7 @@ const Dashboard = () => {
               </form>
             </div>
             <div className={style.graphic}>
-              <Bar options={options} data={data} height="45vh" width="90vw" />
+              <Bar options={options} data={data} height={80} />
             </div>
           </div>
         </div>

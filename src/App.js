@@ -9,6 +9,8 @@ import Workspace from './components/workspace/workspace';
 import Dashboard from './components/workspace/dashboard/dashboard';
 import Shop from './components/workspace/shop/shop';
 import Purchase from './components/workspace/purchase/purchase';
+import axios from "axios";
+import {toast} from "react-toastify";
 
 const isAuth = localStorage.getItem("access_token");
 
@@ -16,14 +18,19 @@ const isAuth = localStorage.getItem("access_token");
 function App() {
 
 
-  // useEffect(() => {
-  //     if(localStorage.getItem('access_token') == null) {
-  //         navigate('/workspace');
-  //     }else {
-  //       navigate('/regestration');
-  //
-  //     }
-  //   },[]);
+  useEffect(() => {
+    async function fetchShift() {
+      await axios({
+        method: 'get',
+        url: `http://185.94.164.62/newapi/shift/`,
+      }).then(response => {
+        localStorage.setItem('shift', JSON.stringify(response.data))
+      })
+    }
+      if(localStorage.getItem('access_token') !== null) {
+         fetchShift()
+      }
+    },[]);
   return (
 
     <BrowserRouter>
