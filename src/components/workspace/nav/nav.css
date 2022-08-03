@@ -4,7 +4,7 @@
    padding-left: 3px;
    transition: all ease 0.2s;
    position: fixed;
-   /* z-index: 2; */
+   z-index: 3;
    width: 60px;
    height: 100vh;
    background-color: rgb(255, 255, 255);
@@ -13,7 +13,6 @@
    /* top: 0;
    left: 0; */
    border-right: 1px solid #f2f4f9;
-
  }
 
  .nav .link__dashboard h2 {
@@ -146,10 +145,10 @@
    flex-direction: column;
    padding-left: 3px;
    transition: all ease 0.3s;
-   position: fixed;
-   z-index: 2;
-   /* top: 0;
-   left: 0; */
+   position: sticky;
+   /* z-index: 3; */
+   top: 0;
+   left: 0;
    margin-right: -60px;
    width: 230px;
    height: 100vh;
@@ -290,4 +289,20 @@
    font-weight: 700;
    font-size: 20px;
    margin-right: 5px;
+ }
+
+ @media screen and (max-width: 460px) {
+   .nav {
+     width: 60px;
+     /* height: 100vh; */
+     height: 60px;
+   }
+
+   .nav .dot:nth-child(2) {
+     display: none;
+   }
+
+   .nav .nav__dashboard {
+     display: none;
+   }
  }
