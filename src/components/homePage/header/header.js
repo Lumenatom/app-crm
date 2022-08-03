@@ -14,7 +14,7 @@ const Header = () => {
     <div className={style.header}>
       <div className={style.container}>
         <div className={style.header__inner}>
-          <NavLink to={'/work'} className={style.logo}>
+          <NavLink to={'/dashboard'} className={style.logo}>
             <img src={logo} className={style.logo__img} alt="logo" />
           </NavLink>
           <nav className={style.menu}>
