@@ -104,7 +104,7 @@ hr {
 }
 
 .cash_desk h2 {
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 24px;
@@ -115,7 +115,7 @@ hr {
   margin-top: 32px;
 }
 
-form {
+.dashboard__form {
   display: flex;
   justify-content: center;
   width: 269px;
@@ -126,7 +126,7 @@ form {
   margin-top: 85px;
 }
 
-form select {
+.dashboard__form_select {
   font-family: 'DM Sans', sans-serif;
   font-style: normal;
   font-size: 15px;
@@ -194,7 +194,7 @@ form select {
 }
 
 .title h2 {
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 24px;
@@ -349,7 +349,7 @@ form select {
     padding-right: 0;
   }
 
-  form {
+  .dashboard__form {
     width: 229px;
     margin-top: 70px;
   }

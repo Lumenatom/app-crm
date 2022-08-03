@@ -15,7 +15,7 @@
 }
 
 .must__title h2 {
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 48px;
@@ -25,7 +25,7 @@
 }
 
 .must__title p {
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'DM Sans', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -44,7 +44,7 @@
 }
 
 .description__right_block h2 {
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 24px;
@@ -83,7 +83,7 @@
 }
 
 .point p {
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'DM Sans', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;

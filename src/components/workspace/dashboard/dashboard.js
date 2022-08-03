@@ -89,8 +89,8 @@ const Dashboard = () => {
             <h2>
               касса компании
             </h2>
-            <form>
-              <select>
+            <form className={style.dashboard__form}>
+              <select className={style.dashboard__form_select}>
                 <option value="1">Сегодня</option>
                 <option value="2">Вчера</option>
                 <option value="3">Последние 7 дней</option>
@@ -198,8 +198,8 @@ const Dashboard = () => {
                   </h2>
                 </div>
               </div>
-              <form>
-                <select>
+              <form className={style.dashboard__form}>
+                <select className={style.dashboard__form_select}>
                   <option value="1">Сегодня</option>
                   <option value="2">Вчера</option>
                   <option value="3">Последние 7 дней</option>
