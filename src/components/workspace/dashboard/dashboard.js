@@ -75,13 +75,13 @@ const Dashboard = () => {
         <div className={style.content}>
           <div className={style.all_data}>
             <div className={style.consumption}>
-              <h2>Pасход<br /> <span> 10 000</span> $</h2>
+              <h2>Pасход<br /> <span> 1000 $</span></h2>
             </div>
             <div className={style.income}>
-              <h2>Доход<br />  <span>20 000</span> $</h2>
+              <h2>Доход<br />  <span>2000 $</span></h2>
             </div>
             <div className={style.profit}>
-              <h2>Профит<br />  <span>10 000</span> $</h2>
+              <h2>Профит<br />  <span>500 $</span></h2>
             </div>
           </div>
           <hr />
