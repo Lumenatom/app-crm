@@ -237,6 +237,15 @@ form select {
   color: #261F26;
 }
 
+@media screen and (max-width: 1920px) {
+  .cash_desk {
+    width: 1393px;
+  }
+
+  .rating {
+    width: 1393px;
+  }
+}
 
 @media screen and (max-width: 1536px) {
   .cash_desk {
