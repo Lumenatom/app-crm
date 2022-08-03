@@ -1,15 +1,18 @@
 .dashboard {
   display: flex;
   width: 100%;
-  background: #1f1f1f;;
+  background: #1f1f1f;
+  ;
 
 }
+
 .containerrr {
-  margin-left: 0!important;
+  margin-left: 0 !important;
 }
+
 .container {
   width: 100%;
-  transition: margin-left .25s cubic-bezier(.4,0,.2,1);
+  transition: margin-left .25s cubic-bezier(.4, 0, .2, 1);
 }
 
 .content {
@@ -23,7 +26,7 @@
 .all_data {
   margin-top: 99px;
   display: flex;
-  gap: 181px;
+  gap: 50px;
   text-align: center;
   justify-content: center;
   margin-bottom: 90px;
@@ -31,56 +34,73 @@
 
 
 
+.consumption,
+.income,
+.profit {
+  width: 270px;
+}
+
 .consumption h2 {
   font-family: 'DM Sans', sans-serif;
   font-style: normal;
-  font-weight: 400;
-  font-size: 24px;
+  font-weight: 600;
+  font-size: 38px;
   line-height: 116.7%;
-  color: #7C6774;
+  color: #ffffff;
+  border: rgba(255, 0, 0, 0.8)10px solid;
+  background: rgba(255, 0, 0, 0.4);
+  border-radius: 25px;
+  padding: 25px 50px;
+
 }
 
 .income h2 {
   font-family: 'DM Sans', sans-serif;
   font-style: normal;
-  font-weight: 400;
-  font-size: 24px;
+  font-weight: 600;
+  font-size: 38px;
   line-height: 116.7%;
-  color: #7C6774;
-
-  ;
+  color: #ffffff;
+  border: rgb(0, 98, 255, 0.800) 10px solid;
+  background: rgb(0, 98, 255, 0.400);
+  border-radius: 25px;
+  padding: 25px 50px;
 }
 
 .profit h2 {
   font-family: 'DM Sans', sans-serif;
   font-style: normal;
-  font-weight: 400;
-  font-size: 24px;
+  font-weight: 600;
+  font-size: 38px;
   line-height: 116.7%;
-  color: #7C6774;
-
+  color: #ffffff;
+  border: rgb(17, 255, 0, 0.800) 10px solid;
+  border-radius: 25px;
+  padding: 25px 50px;
+  background: rgb(17, 255, 0, 0.400);
 }
 
 
 .consumption span {
   display: inline-block;
-  margin-top: 15px;
+  margin-top: 5px;
   font-size: 32px;
-  color: #589BFF;
+  color: #ffffff;
+  font-weight: 800;
 }
 
 .income span {
   display: inline-block;
-  margin-top: 15px;
+  margin-top: 5px;
   font-size: 32px;
-  color: #589BFF;
+  color: #ffffff;
 }
 
 .profit span {
   display: inline-block;
+  margin-top: 5px;
   font-size: 32px;
-  color: #589BFF;
-  margin-top: 15px;
+  color: #ffffff;
 }
 
 hr {
