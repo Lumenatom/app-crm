@@ -1,0 +1,30 @@
+<svg width="23.999999999999996" height="23.999999999999996" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <radialGradient gradientUnits="userSpaceOnUse" gradientTransform="translate(-2.1 -2.6) scale(1.1 1.12)" r="10.67" cy="13.03" cx="12.86" data-name="Безымянный градиент 101" id="Безымянный_градиент_101">
+            <stop stop-color="#fff" offset="0"/>
+            <stop stop-color="#7a3a99" offset="0.5"/>
+            <stop stop-color="#d36fe5" offset="1"/>
+        </radialGradient>
+    </defs>
+    <g>
+        <title>Layer 1</title>
+        <g stroke="null" id="svg_1" isolation="isolate" class="cls-1">
+            <g stroke="null" data-name="Слой 1" id="Слой_1">
+                <g stroke="null" id="svg_2">
+                    <image stroke="null" id="svg_3" x="-1.09571" y="1.92637" mix-blend-mode="multiply" opacity="0.61" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAUCAYAAACTQC2+AAAACXBIWXMAAAsSAAALEgHS3X78AAABxElEQVRIS72VS07DQAyGvyRNgRYECMSCM3C4HoXD9QwsWPAoBRJoEha/3ZlMQ4MQwpLVNpnx/xiPm3Vdx3/EZGzBWCwXd1n8++b2epB59ltFBhAnQOeZAo4CpYwtvHgOFJYd0AKNZQ/sW+sSxjmBNdGzCTAFSgRUAx+2prFn2jCkyECc7QQVKhCAbyiAA+DQPhtgDbwB7wiwdVU7iiKQiRU4AmaIeU44h8LezRFYbXs64BPYICuBBCiyy9meAKfAGQLLbWlr3w8RWEFQs47WbSNVlIJcAleWx/YOZBMES2ukYgfAYwsUWVYi9qfABQFoRugwkEUZOotP+/TcEDUC9BXFaubAOQI6Rxb5+WS2L0cWviO7VsArUtcQNQK2IT2bKWJ/bIBuzQtiWiLg0oAegQfgKQIaVeTd5tmiA66iIgX9ln4G7hHgK7KxTSdD2gx+uzfIkhUi4NZUtq5EyltUfIUUVwyogT5QhxhWBICVPX+zrG2tX+QOHX5FsGxHDUSTYbm480kwJVxUt6+m773bDGG2eQNsL2kcqaIWGx3Iax85DeGmO9vRiR1Hb9YNDFIPBxgstA/AY99Q7cVPiu2L0f+jv4ovPJTHOxHuaeEAAAAASUVORK5CYII=" height="20" width="26" class="cls-2"/>
+                    <polyline stroke="#fff" id="svg_4" stroke-width="1.5px" stroke-linejoin="round" stroke-linecap="round" fill="none" points="6.104289025068283,14.926366746425629 9.704289883375168,10.22636502981186 13.704289883375168,13.526366174221039 17.204287976026535,8.926366746425629 " class="cls-3"/>
+                </g>
+                <g stroke="null" id="svg_5">
+                    <g stroke="null" id="svg_7">
+                        <g stroke="null" id="svg_8" opacity="0.76" mix-blend-mode="multiply" class="cls-4">
+                            <path stroke="#d36fe5" id="svg_9" stroke-width="1.5px" stroke-linejoin="round" stroke-linecap="round" fill="none" d="m15.50429,0.82637l-8.6,0c-3.6,0 -5.8,2.6 -5.8,6.3l0,9.7c0,3.7 2.2,6.2 5.8,6.2l10.2,0c3.6,0 5.8,-2.5 5.8,-6.2l0,-8.5a7.4,7.4 0 0 0 -2,-5.5a7.2,7.2 0 0 0 -5.4,-2z" class="cls-5"/>
+                        </g>
+                        <path stroke="url(#Безымянный_градиент_101)" id="svg_10" stroke-width="1.5px" stroke-linejoin="round" stroke-linecap="round" fill="none" d="m15.40429,0.82637l-8.6,0c-3.6,0 -5.8,2.6 -5.8,6.3l0,9.7c0,3.7 2.2,6.2 5.8,6.2l10.2,0c3.6,0 5.8,-2.5 5.8,-6.2l0,-8.5a7.4,7.4 0 0 0 -2,-5.5a7.2,7.2 0 0 0 -5.4,-2z" class="cls-6"/>
+                    </g>
+                </g>
+                <path stroke="#200e32" id="svg_11" stroke-width="1.5px" stroke-linejoin="round" stroke-linecap="round" fill="none" d="m15.50429,0.82637" class="cls-7"/>
+                <path stroke="#200e32" id="svg_12" stroke-width="1.5px" stroke-linejoin="round" stroke-linecap="round" fill="none" d="m23.10429,1.12637" class="cls-7"/>
+            </g>
+        </g>
+    </g>
+</svg>

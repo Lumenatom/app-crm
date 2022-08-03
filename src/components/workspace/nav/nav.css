@@ -22,6 +22,9 @@
     user-select: none!important;
 
 }
+.menu_svg {
+    margin-right: 7px;
+}
 li {
     display: list-item;
     text-align: -webkit-match-parent;

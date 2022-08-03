@@ -1,0 +1,38 @@
+<svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" data-name="Слой 1">
+    <defs>
+        <linearGradient id="Безымянный_градиент" data-name="Безымянный градиент" x1="-0.025" y1="0.5" x2="1.025" y2="0.5">
+            <stop offset="0" stop-color="#ff747c"/>
+            <stop offset="0.14" stop-color="#ff767e"/>
+            <stop offset="0.19" stop-color="#ff7d84"/>
+            <stop offset="0.22" stop-color="#ff888f"/>
+            <stop offset="0.38" stop-color="#ff868d"/>
+            <stop offset="0.45" stop-color="#ff7e85"/>
+            <stop offset="0.51" stop-color="#ff7178"/>
+            <stop offset="0.54" stop-color="#ff686f"/>
+            <stop offset="0.7" stop-color="#fb666d"/>
+            <stop offset="0.86" stop-color="#ef6066"/>
+            <stop offset="1" stop-color="#df575d"/>
+        </linearGradient>
+    </defs>
+    <g>
+        <title>Layer 1</title>
+        <g id="svg_1">
+            <image class="cls-1" width="15" height="21" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAVCAYAAACZm7S3AAAACXBIWXMAAAsSAAALEgHS3X78AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAO9JREFUeNrEVF0PgyAMpKIu02x72P//k4vuAwVWliNpKuoelozkgml7d7Uoxvxr0UZM5qLaP6suECuAgABS0AK2QEyCDePAaEUHcYuciYl0ZPTYJTmU2s6uDQgnxhniN+QS0UuBWjkncse4MK6is5nxYjgYRe1Mou0eAknwzhggRGvTJvXeHWItYtUeOQtYkbOILVa98vFEdTRxj5yLPAbkxLB8SUSTU9HEeGBIBs+TEFiQs2pyeYLYIDcgNmt36ezR6oiC3PaI43Ko2XUOguyAhTMVjsqK4zLik/RbZClA6oeIpWnTl5dE/Pk19BZgAEkNUi78ZZU3AAAAAElFTkSuQmCC" opacity="0.44" isolation="isolate" y="3" x="0" id="svg_2"/>
+            <line class="cls-2" x1="7.4" y1="10.2" x2="7.4" y2="17.1" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5px" id="svg_3"/>
+        </g>
+        <g id="svg_4">
+            <image class="cls-1" width="14" height="24" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAYCAYAAADKx8xXAAAACXBIWXMAAAsSAAALEgHS3X78AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAPFJREFUeNqclOEOgjAMhBlDI9EYff+H9AcgBBm4mas5xhpxTS5C8eNYd1AUmWV29pdffzCRBGJ9yiYgCx3wK/2VaxWBAhyhUCMUyskNLEEloNrr7HXFsbjN0MbRwiVAN687+g/ADpoZlHWE85PXhcCX1+D15PVqa6wBh2qiQSWHI3BFw6mi6W5AHlJJg5Nzo21HKghqusrcrGqOHK9lD8gb7dCTczVy4hKAiWI2UdQWDXTY8N6rRb9Hz6VAuduElLTY9ALHA659XdnR4fE6XJRH7RC3kdatOs4Eymu1cjRK5Dg5jqacBP/6dGR/rLLrLcAALqFaF+K4PSAAAAAASUVORK5CYII=" opacity="0.44" isolation="isolate" y="0" x="5" id="svg_5"/>
+            <line class="cls-2" x1="12" y1="6.9" x2="12" y2="17.1" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5px" id="svg_6"/>
+        </g>
+        <g id="svg_7">
+            <image class="cls-1" width="15" height="17" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAARCAYAAAACCvahAAAACXBIWXMAAAsSAAALEgHS3X78AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAMNJREFUeNqkU4sKwjAMXB8qKgz9/48UBKuba2ciF4hdOxwNHNuyXO6yZl3XEGbDu/kfsskgRI1vuArRATtcJf+j7gtkIe0BjhHgiNLEZUQL4pFwJvS4F9UEFJUt1E6EC+GK/E2pTtKgRGY3BzTokR8IT0JAzULZZPY9RpA6m9XMvnCOMhvbeyMnVnXNwnbCXAMs3pEPyMW1D5ZwJAHPovxAbqyRZXvY4ks10uc86S0zKxtm1R5ENVKVvGm3m/6qpvgIMAApjkP/BzrKwAAAAABJRU5ErkJggg==" opacity="0.44" isolation="isolate" y="7" x="9" id="svg_8"/>
+            <line class="cls-2" x1="16.6" y1="13.8" x2="16.6" y2="17.1" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5px" id="svg_9"/>
+        </g>
+        <g id="svg_10" stroke="null">
+            <g class="cls-3" opacity="0.87" id="svg_11" stroke="null">
+                <path class="cls-4" d="m17.65105,0.44354l-10.86308,0c-3.81363,0 -6.12493,2.65799 -6.12493,6.47162l0,10.16969c0,3.81363 2.31129,6.47162 6.12493,6.47162l10.86308,0c3.81363,0 6.12493,-2.65799 6.12493,-6.47162l0,-10.16969c0,-3.81363 -2.31129,-6.47162 -6.12493,-6.47162z" fill="none" stroke-miterlimit="10" id="svg_12" stroke="#b53737"/>
+            </g>
+            <path class="cls-5" d="m17.53549,0.44354l-10.86308,0c-3.81363,0 -6.12493,2.65799 -6.12493,6.47162l0,10.16969c0,3.81363 2.31129,6.47162 6.12493,6.47162l10.86308,0c3.81363,0 6.12493,-2.65799 6.12493,-6.47162l0,-10.16969c0,-3.81363 -2.31129,-6.47162 -6.12493,-6.47162z" fill="none" stroke-miterlimit="10" id="svg_13" stroke="url(#Безымянный_градиент)"/>
+        </g>
+    </g>
+</svg>

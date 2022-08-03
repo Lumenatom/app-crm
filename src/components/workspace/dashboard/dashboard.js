@@ -72,7 +72,7 @@ const Dashboard = () => {
 
       <Nav />
 
-      <div id="container" style={{ marginLeft: 305 }} className={style.container}>
+      <div id="container" style={ {marginLeft: 305}} className={style.container}>
         <div className={style.content}>
           <div className={style.all_data}>
             <div className={style.consumption}>
